@@ -1,0 +1,11 @@
+# Organizer OpenAI discovery adapter checkpoint — 2026-10-17
+
+Experimental route added after public636df33. No actual API credential or paid provider call was used. The previous fresh100 is historicale558e5a evidence and does not validate this API adapter.
+
+The route requires explicit OpenAI provider, runtime key, model and declared search fee; unknown model token rates reject before discovery. It calls the official Responses endpoint using one required bounded web_search with the full consulted-source list. Tool prose/citations are excluded from evidence. Existing public URL, robots, direct-page acquisition, identity, immutable evidence, publication and resource guards remain in force. Subscription admission, personal login, zero-charge assumptions and automatic fallback do not apply to this route.
+
+Independent source reviews found and closed blank-fee-as-zero, doctor misconfiguration, estimated-versus-actual billing and oversized prebuffer issues. Mock regressions cover request/body/auth shape using a dummy token, full source parsing, incomplete/multiple/non-search responses, missing usage, missing key, HTTP/malformed/oversized failures, no retries/fallback, direct-page evidence, existing subscription guard isolation, one network semaphore, explicit fees, unknown actual invoice USD and doctor rejection of missing/unpriced settings. Actual cost fields remain null with cost_complete:false; configured equivalents are separate estimates.
+
+Validation:17 focused mocked regressions pass; typecheck and macOS build pass. A broad serial regression suite and saved-evidence offline100 replay are reported separately by the release worker. Build output warns that native dependencies target darwin-arm64; clean Linux installation/runtime and live organizer authentication/tool entitlement remain unverified. No final-source live100 or1000 is claimed. Low historical coverage, unmeasured independent precision/recall and license/source-rights limitations remain.
+
+Official reference contract checked: https://developers.openai.com/api/docs/guides/tools-web-search and https://developers.openai.com/api/reference/resources/responses/methods/create.md . Configuration/run command: docs/ORGANIZER_OPENAI_API.md.

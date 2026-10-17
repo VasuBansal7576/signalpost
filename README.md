@@ -1,6 +1,6 @@
 # Signalpost
 
-Evidence-bound Norwegian company research agent. This is a sanitized source snapshot with a fresh public history; private development histories, runtime state, credentials and original unsanitized fixtures are excluded. Runtime source corresponds to isolated repair0f056c5; public commit identity is separate.
+Evidence-bound Norwegian company research agent. This is a sanitized source snapshot with a fresh public history; private development histories, runtime state, credentials and original unsanitized fixtures are excluded. Runtime source includes isolated repair0f056c5 and a separately mocked organizer OpenAI API discovery adapter; public commit identity is separate.
 
 ## Status
 
@@ -23,7 +23,7 @@ One evaluator command (runtime-supplied inputs, registry snapshot, model/source 
 npm run batch -- --evaluator --organisations "$INPUT_JSONL" --bulk "$FROZEN_REGISTRY_CSV" --expected-count "$INPUT_COUNT" --run-id "$RUN_ID" --db data/evaluator.sqlite --cache data/evaluator-cache --output out/envelopes.jsonl --report out/report.json --workers 2 --registry-workers 1 --provider-workers 1 --extraction-workers 1 --review-workers 1 --network-workers 2 --per-host-workers 1 --timeout-seconds "$BATCH_SECONDS" --company-timeout-seconds 240
 ```
 
-Supply `SIGNALPOST_EVIDENCE_CUTOFF` and explicitly configure model/provider and permitted discovery transport in the environment. `--evaluator` does not load local.env files. The tested local included-subscription route adds `--keyless`; it needs the entrant's existing local Codex broker runtime and **does not establish a portable organizer authentication path**. No personal authentication is included. The API adapter exists but clean Linux/organizer authentication and a full official frozen-registry run remain unverified. Do not assume the default paid discovery configuration has credentials or that it is authorized.
+Supply `SIGNALPOST_EVIDENCE_CUTOFF` and explicitly configure model/provider and permitted discovery transport in the environment. `--evaluator` does not load local.env files. The tested local included-subscription route adds `--keyless`; it needs the entrant's existing local Codex broker runtime and **does not establish a portable organizer authentication path**. No personal authentication is included. The explicit organizer OpenAI API route is documented in `docs/ORGANIZER_OPENAI_API.md`; its request shape, source handling, budget admission and failure behavior are mocked-tested. Clean Linux/organizer authentication, live API model/tool support and a full official frozen-registry run remain unverified. Do not assume the default paid discovery configuration has credentials or that it is authorized.
 
 ## Verification and limitations
 

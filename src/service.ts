@@ -1,3 +1,4 @@
+import{openaiApiSearch,openaiSearchConfiguration,OpenAiSearchError}from'./openai-search.ts';
 import{discoverySearchQuery,discoveryCandidateScore,conflictingPublisherExpansion,identityDiscoveryLink}from'./discovery-planning.ts';
 import{freezeEvidence}from'./sealed-evidence-view.ts';
 import{sealNavCatalogue}from'./validated-nav-catalogue.ts';
@@ -75,6 +76,8 @@ export class ResearchService {
   private providerBlock?:string;
   sourceBlockReason(){return this.providerBlock??null;}
   nativeSearch=nativeSearch;
+  apiSearch=(query:string,excluded:string[],signal:AbortSignal)=>openaiApiSearch(query,excluded,signal,this.request);
+  directWeb(){return this.settings.exaTransport==='codex'||this.settings.exaTransport==='openai';}
   renderPublic=renderPublic;
   preservePublicDocument=preservePublicDocument;
   navFeed?:NavFeed;
@@ -90,7 +93,7 @@ export class ResearchService {
       const resumed=kind!=='search'&&cost===0&&!key.includes('#resume-unpaid=1')?this.store.call(job.id,key+'#resume-unpaid=1'):undefined;
       if(resumed)return this.call(job,key+'#resume-unpaid=1',kind,cost,perform);
       if(existing.state==='pending'){
-        if(this.resumeInterruptedUnpaidGets&&this.settings.exaTransport==='codex'&&kind!=='search'&&cost===0&&!key.includes('#resume-unpaid=1')){
+        if(this.resumeInterruptedUnpaidGets&&this.directWeb()&&kind!=='search'&&cost===0&&!key.includes('#resume-unpaid=1')){
           this.store.event(job.run_id,job.organisation_number,'resume_unpaid_get','Resume interrupted public GET once; original pending receipt retained');
           return this.call(job,key+'#resume-unpaid=1',kind,cost,perform);
         }
@@ -102,7 +105,7 @@ export class ResearchService {
     }
     this.runtime?.check();
     if (job.deadline_at && Date.now() >= Date.parse(job.deadline_at)) throw new Error('Company deadline reached');
-    const limit = kind === 'search' ? this.settings.maxSearches : kind === 'contents' ? this.settings.maxPages : kind==='html'?(this.settings.exaTransport==='codex'?2*(this.settings.maxPages+this.settings.maxSearches*(this.settings.searchResults??4)+2):this.settings.maxPages*2):20;
+    const limit = kind === 'search' ? this.settings.maxSearches : kind === 'contents' ? this.settings.maxPages : kind==='html'?(this.directWeb()?2*(this.settings.maxPages+this.settings.maxSearches*(this.settings.searchResults??4)+2):this.settings.maxPages*2):20;
     this.store.reserve(job.id, key, kind, cost, this.settings.maxExaUsd, limit);
     this.store.event(job.run_id,job.organisation_number,kind,`Request started: ${kind==='registry'?key:kind}`);
     try {
@@ -111,7 +114,7 @@ export class ResearchService {
       this.store.settle(job.id, key, body, 'completed', measured.success ? measured.data.costDollars.total : undefined);
       return body;
     } catch (error) {
-      this.store.settle(job.id, key, { error: errorMessage(error),...((error instanceof NativeSearchProviderError||error instanceof NativeSearchResponseError)&&error.diagnostic?{provider_diagnostic:error.diagnostic}:{}) }, 'failed');
+      this.store.settle(job.id, key, { error: errorMessage(error),...((error instanceof NativeSearchProviderError||error instanceof NativeSearchResponseError||error instanceof OpenAiSearchError)&&error.diagnostic?{provider_diagnostic:error.diagnostic}:{}) }, 'failed');
       throw error;
     }
   }
@@ -146,7 +149,7 @@ export class ResearchService {
       return this.call(job,retryKey,'html',0,request) as Promise<Awaited<ReturnType<typeof publicGet>>>;
     }
   }
-  researchTime(job:Job,reserveMs=this.discoveryReserveMs,requestMs=this.settings.exaTransport==='codex'?15000:this.settings.exaTransport==='connector'?45000:20000){return !this.runtime?.signal.aborted&&(!job.deadline_at||Date.parse(job.deadline_at)-Date.now()>reserveMs+requestMs);}
+  researchTime(job:Job,reserveMs=this.discoveryReserveMs,requestMs=this.directWeb()?15000:this.settings.exaTransport==='connector'?45000:20000){return !this.runtime?.signal.aborted&&(!job.deadline_at||Date.parse(job.deadline_at)-Date.now()>reserveMs+requestMs);}
   save(job: Job, url: string, text: string, sourceClass: Snapshot['source_class']) {
     const preserved = this.store.evidenceView(job.id).find(s => s.source_url === url && s.text === text && (s.source_class === sourceClass||sourceClass==='external'&&s.source_class==='company_owned'));
     if (preserved) return structuredClone(preserved);
@@ -238,7 +241,7 @@ export class ResearchService {
     return { job, identity: this.identity(job), usage: this.store.usage(job.id), limits: { searches: this.settings.maxSearches, pages: this.settings.maxPages }, fields: researchFields, discovered_sources:sources.map(s=>this.sourceContext(job,s,1600)), saved_proposals:this.store.proposals(jobId).map(p=>{const c=proposalSchema.parse(p);return {field:c.field,snapshot_id:c.snapshot_id,...(c.field==='company_owned_profiles'?{value:c.value}:{})};}), note:'Fresh full-page text is already saved. Inspect snapshot IDs without network calls. Code-saved proposals need not be repeated. Prioritize current hiring and company-owned links, then complete descriptions, locations and actual dated company events from attributed pages. Raw HTML and NAV receipts are omitted here to avoid duplicate/noisy context. Search snippets/titles alone are not evidence.' };
   }
   async exa(job: Job, endpoint: string, payload: Record<string, unknown>, cost: number, kind: 'search' | 'contents') {
-    if(this.settings.exaTransport==='codex')throw Error('Keyless mode never invokes Exa; use native search and direct public retrieval');
+    if(this.directWeb())throw Error('Keyless mode never invokes Exa; use native search and direct public retrieval');
     if(this.providerBlock)throw new Error(this.providerBlock);
     if(this.settings.exaTransport==='mcp'){this.mcp??=new ExaMcp(this.request);try{return exaResponseSchema.parse(await this.call(job,hash('mcp\n'+endpoint+'\n'+canonical(payload)),kind,0,()=>this.mcp!.execute(endpoint,payload,this.signal(job))));}catch(error){if(error instanceof Error&&error.name==='ExaMcpAccessError')this.providerBlock=error.message;throw error;}}
     if(this.settings.exaTransport==='connector'){
@@ -253,7 +256,7 @@ export class ResearchService {
   }
   async search(jobId: string, query: string,purpose:'website'|'hiring'|'identity'|'general'='general') {
     const job = this.store.job(jobId);
-    if(this.settings.exaTransport==='codex')return this.keylessSearch(job,query,purpose);
+    if(this.directWeb())return this.keylessSearch(job,query,purpose);
     const response = await this.exa(job, 'search', { query, type: 'auto', userLocation:'NO', numResults:this.settings.searchResults??8, excludeDomains:[...restrictedDomains,...reviewedAccessRestrictions.map(r=>r.host),...(['website','hiring'].includes(purpose)?directoryDomains:[])],contents: { text:{maxCharacters:24000,verbosity:'full',includeSections:['header','navigation','body','footer','metadata']},extras:{links:100},maxAgeHours:0,livecrawlTimeout:8000 } }, 0.007, 'search');
     const candidates:{url:string;title:string|null|undefined;snapshot_id?:string}[]=[];
     for(const result of response.results){
@@ -267,20 +270,22 @@ export class ResearchService {
   }
   async keylessSearch(job:Job,query:string,purpose:'website'|'hiring'|'identity'|'general'){
     query=discoverySearchQuery(query,this.identity(job)??{},purpose);
-    if(this.nativeSearch===nativeSearch)assertSubscriptionAdmission();
+    const api=this.settings.exaTransport==='openai',apiConfig=api?openaiSearchConfiguration():undefined,provider=api?'openai':'chatgpt',model=apiConfig?.model??'gpt-6-luna',toolFee=apiConfig?.fee??.01,rates=modelRates(model,provider);
+    if(api&&!rates)throw Error('Declare model token prices before OpenAI API discovery');
+    if(!api&&this.nativeSearch===nativeSearch)assertSubscriptionAdmission();
     if(this.providerBlock)throw Error(this.providerBlock);
     const excluded=[...restrictedDomains,...reviewedAccessRestrictions.map(r=>r.host),...(['website','hiring'].includes(purpose)?directoryDomains:[])];
-    const receipt=await this.call(job,hash('codex-native-search/v1\n'+query),'search',0,async()=>{
+    const receipt=await this.call(job,hash((api?'openai-api-search/v1\n'+model+'\n':'codex-native-search/v1\n')+query),'search',0,async()=>{
       const available=job.deadline_at?Date.parse(job.deadline_at)-Date.now()-this.discoveryReserveMs:45000;if(available<=0)throw Error('Discovery stopped to preserve extraction and verification time');const signal=AbortSignal.any([this.runtime?.companySignal(job)??this.signal(job),AbortSignal.timeout(Math.max(1,Math.min(45000,available)))]);const perform=async()=>{const quota=await this.runtime?.modelQuota(40000,signal);
-      const reservation=.03,toolReservation=.01;
+      const reservation=api?(40000*rates!.input+1024*rates!.output)/1e6:.03,toolReservation=toolFee;
       this.store.reserveResource(job.run_id,'model_api_equivalent_usd',reservation,this.runtime?.limits.modelEquivalentUsd??10);
       this.store.reserveResource(job.run_id,'search_api_equivalent_usd',toolReservation,Number(process.env.SIGNALPOST_MAX_SEARCH_EQUIVALENT_USD??100));
-      try{const r=await this.nativeSearch(query,excluded,signal),u=r.usage as {inputTokens?:number;outputTokens?:number};if(quota&&u.inputTokens!==undefined&&u.outputTokens!==undefined)this.runtime?.settleModelQuota(quota,u.inputTokens+u.outputTokens);const price=recordNormalizedUsage(this.store,job.id,r.usage,'gpt-6-luna','chatgpt');
+      try{const r=await (api?this.apiSearch(query,excluded,signal):this.nativeSearch(query,excluded,signal)),u=r.usage as {inputTokens?:number;outputTokens?:number};if(quota&&u.inputTokens!==undefined&&u.outputTokens!==undefined)this.runtime?.settleModelQuota(quota,u.inputTokens+u.outputTokens);const price=recordNormalizedUsage(this.store,job.id,r.usage,model,provider);
         if(price!==null)this.store.settleResource(job.run_id,'model_api_equivalent_usd',reservation,price);
-        const complete=nativeReceiptComplete({...r,model_api_equivalent_usd:price});if(complete)this.store.settleResource(job.run_id,'search_api_equivalent_usd',toolReservation,r.search_calls*.01);
-        this.store.operation(job.run_id,job.organisation_number,{stage:'native_search_receipt',...r,usage:undefined,sources:undefined,source_count:r.sources.length,model_api_equivalent_usd:price,known_search_api_equivalent_usd:r.search_calls*.01,search_api_equivalent_usd:complete?r.search_calls*.01:null,incremental_api_bill_usd:0});return r;
-      }catch(error){if(error instanceof NativeSearchProviderError){this.providerBlock=error.message;this.runtime?.stop(error.message);}const old=this.store.modelUsage(job.id)??{};this.store.saveModelUsage(job.id,{...(old as object),incomplete:true});throw error;}
-      };return this.runtime?this.runtime.providerExecution('chatgpt',signal,perform):perform();
+        const complete=nativeReceiptComplete({...r,model_api_equivalent_usd:price});if(complete)this.store.settleResource(job.run_id,'search_api_equivalent_usd',toolReservation,r.search_calls*toolFee);
+        this.store.operation(job.run_id,job.organisation_number,{stage:'native_search_receipt',...r,usage:undefined,sources:undefined,source_count:r.sources.length,model_api_equivalent_usd:price,known_search_api_equivalent_usd:r.search_calls*toolFee,search_api_equivalent_usd:complete?r.search_calls*toolFee:null,provider,model,incremental_api_bill_usd:api?null:0});return r;
+      }catch(error){if(error instanceof NativeSearchProviderError||error instanceof OpenAiSearchError&&[400,401,402,403,429].includes(error.status??0)){this.providerBlock=error.message;this.runtime?.stop(error.message);}const old=this.store.modelUsage(job.id)??{};this.store.saveModelUsage(job.id,{...(old as object),incomplete:true});throw error;}
+      };return this.runtime?this.runtime.providerExecution(provider,signal,perform):perform();
     }) as Awaited<ReturnType<typeof nativeSearch>>;
     if(receipt.rejected||receipt.search_calls!==1)throw Error(receipt.rejected??'Native search did not return exactly one tool call');
     const candidates:{url:string;title:string;snapshot_id?:string}[]=[],documents:{url:string;title:string;snapshot_id?:string}[]=[];
@@ -321,7 +326,7 @@ export class ResearchService {
     const identity=this.identity(job),address=identity?.forretningsadresse as Record<string,unknown>|undefined;
     const name=String(identity?.navn??''),city=String(address?.poststed??'');
     const registered=String(identity?.hjemmeside??''),emailHost=registryEmailDomain(identity??{});
-    const guessed=this.settings.exaTransport==='codex'?domainSeeds(name):[],registrySeeds=[...new Set([...(registered?[registered.startsWith('http')?registered:`https://${registered}`]:[]),...(emailHost?[`https://${emailHost}/`]:[])])];
+    const guessed=this.directWeb()?domainSeeds(name):[],registrySeeds=[...new Set([...(registered?[registered.startsWith('http')?registered:`https://${registered}`]:[]),...(emailHost?[`https://${emailHost}/`]:[])])];
     for(const url of registrySeeds){if(!this.researchTime(job))break;if(guessed.includes(url)&&this.store.proposals(job.id).some(raw=>proposalSchema.parse(raw).field==='official_website'))continue;try{await this.publicNavigation(job,url,false,false);}catch(error){this.store.event(job.run_id,job.organisation_number,'registry_seed_unavailable','Registered website navigation failed: '+errorMessage(error));try{await this.read(job.id,url);}catch(fallback){this.store.event(job.run_id,job.organisation_number,'registry_seed_unavailable','Registered website readable fetch failed: '+errorMessage(fallback));}}}
     const exact=JSON.stringify(name.replace(/\s+(AS|ASA|ANS|DA)$/i,''));
     const workplace=this.store.evidenceView(job.id).find(s=>s.source_url.startsWith('https://data.brreg.no/enhetsregisteret/api/underenheter?'));
@@ -329,7 +334,7 @@ export class ResearchService {
     const websiteQuery=`${tradingNames.length?'('+[exact,...tradingNames.map(n=>JSON.stringify(n))].join(' OR ')+')':exact} ${city} Norway nettside kontakt`;
     // Search before speculative DNS probes and slow directory refreshes. In a
     // short company budget those used to consume the entire discovery window.
-    const native=this.settings.exaTransport==='codex';
+    const native=this.directWeb();
     if(native&&this.researchTime(job)){try{await this.search(job.id,websiteQuery,'website');}catch(error){this.store.event(job.run_id,job.organisation_number,'discovery','Website discovery unavailable: '+errorMessage(error));}}
     if(native)await this.inspectCompanyCandidates(job);
     if(!native||!this.store.proposals(job.id).some(raw=>proposalSchema.parse(raw).field==='official_website'))await this.fallbackDiscovery(job,this.discoveryReserveMs);
@@ -482,7 +487,7 @@ export class ResearchService {
     if(sections==='navigation')return {...this.sourceContext(job,await this.publicNavigation(job,url),12000),usage:this.store.usage(jobId)};
     const saved=this.store.evidenceView(jobId).find(s=>s.source_class!=='public_registry'&&s.source_url===url&&!['exa-navigation-and-links/v2','public-html-links/v1','public-rendered-html/v1'].includes(s.extraction_method??''));
     if(saved)return {...this.sourceContext(job,saved,10000),usage:this.store.usage(jobId)};
-    if(this.settings.exaTransport==='codex'){const acquire=async()=>{const navigation=await this.publicNavigation(job,url,false,false);const extracted=this.store.evidenceView(job.id).find(s=>s.source_url===navigation.source_url&&['public-html-text-and-links/v5','public-html-text-and-links/v4','public-html-text-and-links/v3','public-rendered-text-and-links/v4','public-rendered-text-and-links/v3','public-rendered-text-and-links/v2'].includes(s.extraction_method??''));if(!extracted)throw Error('No independently retrieved readable source');return{snapshot_id:extracted.id};};const saved=(searchCandidate?await acquire():await this.call(job,'public-content:'+url,'contents',0,acquire)) as {snapshot_id:string};return {...this.sourceContext(job,this.store.source(job.id,saved.snapshot_id),10000),usage:this.store.usage(job.id)};}
+    if(this.directWeb()){const acquire=async()=>{const navigation=await this.publicNavigation(job,url,false,false);const extracted=this.store.evidenceView(job.id).find(s=>s.source_url===navigation.source_url&&['public-html-text-and-links/v5','public-html-text-and-links/v4','public-html-text-and-links/v3','public-rendered-text-and-links/v4','public-rendered-text-and-links/v3','public-rendered-text-and-links/v2'].includes(s.extraction_method??''));if(!extracted)throw Error('No independently retrieved readable source');return{snapshot_id:extracted.id};};const saved=(searchCandidate?await acquire():await this.call(job,'public-content:'+url,'contents',0,acquire)) as {snapshot_id:string};return {...this.sourceContext(job,this.store.source(job.id,saved.snapshot_id),10000),usage:this.store.usage(job.id)};}
     const response = await this.exa(job, 'contents', { urls: [url], text:{maxCharacters:50000,verbosity:'full',includeSections:['header','navigation','body','footer','metadata']},extras:{links:200},maxAgeHours: 0 }, 0.001, 'contents');
     const result = response.results.find(r => r.text && publicUrl(r.url));
     if (!result?.text) throw new Error('No readable source content returned');
@@ -525,7 +530,7 @@ export class ResearchService {
     if(response.raw_sha256&&response.retrieved_at)source.transport={raw_sha256:response.raw_sha256,retrieved_at:response.retrieved_at,final_url:response.url,...(response.redirect_chain?{redirect_chain:response.redirect_chain}:{})};
     source.extraction_method='public-html-links/v1';this.store.db.prepare('UPDATE snapshots SET body=? WHERE id=? AND job=?').run(JSON.stringify(source),source.id,job.id);
     let render:Awaited<ReturnType<typeof renderPublic>>|undefined;let html=source.text;
-    if(this.settings.exaTransport==='codex'&&javascriptShell(html,htmlText(html))&&brandDomain(source.source_url,String(this.identity(job)?.navn??''))){
+    if(this.directWeb()&&javascriptShell(html,htmlText(html))&&brandDomain(source.source_url,String(this.identity(job)?.navn??''))){
       try{render=await this.renderPublic(response,robots,this.runtime?.companySignal(job)??this.signal(job),this.websiteRequest);html=render.html;const dom=this.save(job,render.url,html,'external');dom.extraction_method='public-rendered-html/v1';dom.rendering={input_snapshot_id:source.id,dom_sha256:render.dom_sha256,resources:render.resources,elapsed_ms:render.elapsed_ms,blocked_requests:render.blocked_requests};this.store.db.prepare('UPDATE snapshots SET body=? WHERE id=? AND job=?').run(JSON.stringify(dom),dom.id,job.id);this.store.operation(job.run_id,job.organisation_number,{stage:'public_render',elapsed_ms:render.elapsed_ms,resources:render.resources.length,blocked_requests:render.blocked_requests});}catch(error){this.store.event(job.run_id,job.organisation_number,'render_failed',errorMessage(error));}
     }
     const links=websiteLinks(html,source.source_url),text=htmlText(html);
@@ -739,6 +744,7 @@ export class ResearchService {
     for(const c of result.claims)c.qualifiers={...c.qualifiers,validation_policy:validationPolicy};
     result.operations.model_api_equivalent_usd=this.store.modelUsage(job.id)?(rates?apiEquivalent(this.store.modelUsage(job.id),rates):null):0;
     result.operations.model_api_equivalent_basis=rates?{...rates,semantics:'input inclusive of cache read/write; legacy counts conservatively uncached; estimate distinct from subscription charge'}:null;
+    if(this.settings.exaTransport==='openai'){const receipts=this.store.db.prepare('SELECT body FROM operation_metrics WHERE run=? AND org=?').all(job.run_id,job.organisation_number).map(r=>JSON.parse(String(r.body))).filter(r=>r.stage==='native_search_receipt'),calls=this.store.db.prepare("SELECT state FROM calls WHERE job=? AND kind='search'").all(job.id),complete=calls.every(c=>c.state==='completed')&&receipts.length===calls.length&&receipts.every(nativeReceiptComplete),fee=receipts.reduce((n,r)=>n+Number(r.known_search_api_equivalent_usd??0),0);result.operations.known_search_api_equivalent_usd=fee;result.operations.search_api_equivalent_usd=complete?fee:null;result.operations.estimated_third_party_cost_usd=complete&&result.operations.third_party_cost_usd!==null?result.operations.third_party_cost_usd+fee:null;result.operations.third_party_cost_usd=null;result.operations.model_cost_usd=null;result.operations.cost_complete=false;result.operations.model_billing='Configured token-rate estimate only; actual OpenAI invoice USD not reported';}
     result.operations.model_usage_complete=!(this.store.modelUsage(job.id) as {incomplete?:boolean}|undefined)?.incomplete;
     result.changes = materialChanges(this.store.previous(job.organisation_number, job.run_id), result);
     result.claim_history=updateClaimLedger(this.store,result);result.synthesis=synthesize(result);

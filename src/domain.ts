@@ -36,7 +36,7 @@ export type Envelope = {
   organisation_number: string;
   run: { run_id: string; started_at: string; completed_at: string; terminal_status: 'completed' | 'partial' | 'failed'; mode: 'demo' | 'registry' | 'eve' };
   claims: Claim[]; evidence: Evidence[]; changes: Change[]; errors: { code: string; message: string }[];
-  operations: { requests: number; runtime_ms: number; third_party_cost_usd: number | null; known_exa_cost_usd: number; model_cost_usd: number | null; cost_complete: boolean; exa_billing?:string; model_billing?:string; model_input_tokens?:number; model_output_tokens?:number;model_api_equivalent_usd?:number|null;model_api_equivalent_basis?:unknown;model_usage_complete?:boolean };
+  operations: { requests: number; runtime_ms: number; third_party_cost_usd: number | null; known_exa_cost_usd: number; model_cost_usd: number | null; cost_complete: boolean; exa_billing?:string; model_billing?:string; model_input_tokens?:number; model_output_tokens?:number;model_api_equivalent_usd?:number|null;model_api_equivalent_basis?:unknown;model_usage_complete?:boolean;estimated_third_party_cost_usd?:number|null;known_search_api_equivalent_usd?:number;search_api_equivalent_usd?:number|null };
 };
 export const hash = (value: string) => createHash('sha256').update(value).digest('hex');
 export const now = () => new Date().toISOString();
