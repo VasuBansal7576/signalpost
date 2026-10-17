@@ -1,0 +1,34 @@
+{
+  "source": "0f056c5",
+  "elapsed_ms": 39261,
+  "forbidden_source_attempts": 0,
+  "scope": "Exposed saved-evidence development on two former failed cases; no new qualification or causal A/B control",
+  "results": [
+    {
+      "org": "913236815",
+      "elapsed_ms": 6663,
+      "packet_count": 2,
+      "omitted_spans": [],
+      "extracted": 2,
+      "accepted": 2,
+      "fields": {
+        "locations": 2
+      },
+      "errors": [],
+      "all_returned_quotes_hashes_checks_pass": true
+    },
+    {
+      "org": "967029408",
+      "elapsed_ms": 32295,
+      "packet_count": 6,
+      "omitted_spans": [],
+      "extracted": 14,
+      "accepted": 11,
+      "fields": {
+        "business_description": 11
+      },
+      "errors": [],
+      "all_returned_quotes_hashes_checks_pass": true
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "org": "913417208",
+    "value": "Om oss Senja Montessoriskole ligger i Fjordgård på Nord-Senja, rett ved foten av det velkjente fjellet og turistmålet Segla. Her kan du oppleve spektakulær natur, med umiddelbar nærhet til både fjell og fjord, noe som gir unike muligheter og et stort potensial for læring i friluft. Senja Montessoriskole er samlokalisert…",
+    "expected_problem": true,
+    "source_urls": [
+      "https://senjamontessoriskole.no/om-oss/"
+    ],
+    "context_review_reason": "The published text is a truncated scenery or location excerpt rather than an account of the school’s educational offering."
+  },
+  {
+    "org": "916476507",
+    "value": "Medlemsregister\nFull oversikt over alle medlemmer\nKommunikasjon\nSMS, e-post, brevpost og Digipost\nRegnskap\nIntegrert regnskapssystem\nUtlegg\nRask innsending fra mobil eller PC\nMøter\nInnkalling, agenda, referat og signering\nDokumentlagring\nViktige filer samlet og trygt lagret\nKontingent\nEnkel innkreving og purring\nStifte organisasjon\nEnkel og riktig etablering av organisasjonsnummer\nFelleskostnader\nAutomatisk beregning og enkel fakturering\nInkasso\nProfesjonell oppfølging så du slipper å mase\nOppgaver\nDeleger ansvar og følg fremdrift\nPåmelding\nEnkelt å melde seg på arrangementer\nProdukter\nEnkel medlemsbutikk\nNettside\nMulighet for enkel eller avansert nettside\nEiendomssøk\nFå naboene rett inn i medlemslista",
+    "expected_problem": true,
+    "source_urls": [
+      "https://smartorg.no/",
+      "https://smartorg.no/kontakt/",
+      "https://smartorg.no/om-oss/",
+      "https://smartorg.no/tjenestetorg/",
+      "https://smartorg.no/vilkar/",
+      "https://smartorg.no/personvern/",
+      "https://smartorg.no/ny-nettside/",
+      "https://smartorg.no/category/nyheter/",
+      "https://smartorg.no/funksjoner/nettside/"
+    ],
+    "context_review_reason": "A long navigation or feature menu has been published as a company description. Prefer a complete about or offering paragraph; menu truth alone does not make it a useful description."
+  },
+  {
+    "org": "922097232",
+    "value": "Om oss Hafslund Bilservice AS Kun 2-3 minutter fra E6. Om oss Hafslund Bilservice AS Vi startet opp vårt store verksted her i januar 2019 og nå er vi 7 ansa ...",
+    "expected_problem": true,
+    "source_urls": [
+      "https://hafslundbilservice.no/om-oss/"
+    ],
+    "context_review_reason": "Repeated headings, navigation, promotional transitions or an unfinished sentence have been published as a company description. Prefer complete substantive sentences."
+  },
+  {
+    "org": "926416952",
+    "value": "Kurs på Eierskiftedagene 2026 – Dokumenter på liv og død. Hvordan kan vi planlegge for det uforutsette? Vi ser på viktige dokumenter og grep ved samlivsbrudd, alvorlig sykdom eller dødsfall. Kurset presenterer også den nye skyløsningen av programmet, og kursdeltakerne vil få tilgang til den nye løsningen før den slippes for andre kunder. Eierskifte på […]",
+    "expected_problem": true,
+    "source_urls": [
+      "https://eierskifte.no/"
+    ],
+    "context_review_reason": "A truncated excerpt about one course does not describe the overall business. Keep a properly dated course as activity and use the complete product or service description."
+  },
+  {
+    "org": "926416952",
+    "value": "Om oss Gründerne bak produktet er Jørn Einar Angeltveit, Fred Zetterstrøm, Ole Gunnar Green. Sammen med Agil Kompetanse AS satser vi på utvikling av produktet for bruk i Norge. Faglig dyktighet har alltid vært et varemerke for firmaet og kursvirksomheten har vært en sentral del av driften. Eierskifte AS sitt ønske er å forenkle papirhverdagen […]",
+    "expected_problem": true,
+    "source_urls": [
+      "https://eierskifte.no/om-oss/"
+    ],
+    "context_review_reason": "The excerpt is truncated or mixed with headings. Prefer the complete substantive body paragraph. This is a representation defect rather than proof that every contained fact is false."
+  },
+  {
+    "org": "915987915",
+    "value": "Om oss Vi er en bedrift som setter kunden i fokus Andersen & Knoph AS Vi påtar oss de fleste typer oppdrag knyttet til anleggsarbeid Andersen & Knoph As er et entreprenørselskap som ble startet i 2015.Firmaet er en videreføring av Tore U Knoph ENK, som har eksistert siden 1971. Vi utfører arbeid som graving, […]",
+    "expected_problem": true,
+    "source_urls": [
+      "https://www.andersenknoph.no/om-oss/"
+    ],
+    "context_review_reason": "Repeated headings, navigation, promotional transitions or an unfinished sentence have been published as a company description. Prefer complete substantive sentences."
+  },
+  {
+    "value": "Vi utvikler regnskapsprogramvare for små bedrifter. Vi tilbyr også opplæring og integrasjoner.",
+    "expected_problem": false
+  },
+  {
+    "value": "We build software. Our teams deliver design, implementation and ongoing support.",
+    "expected_problem": false
+  },
+  {
+    "value": "Vi leverer analyse … og oppfølging til norske bedrifter.",
+    "expected_problem": false
+  },
+  {
+    "value": "Regnskap\nIntegrasjoner\nOpplæring",
+    "expected_problem": false
+  }
+]

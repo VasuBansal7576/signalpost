@@ -1,0 +1,13 @@
+FROM node:26.8.2-bookworm-slim@sha256:cd9f682fa2885cd1056e830424764158570061c59736a1da836bc3d73df095ae
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates git procps poppler-utils && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY . .
+ARG SIGNALPOST_SOURCE_COMMIT
+ENV SIGNALPOST_SOURCE_COMMIT=${SIGNALPOST_SOURCE_COMMIT}
+LABEL org.opencontainers.image.revision=${SIGNALPOST_SOURCE_COMMIT}
+ENV EVE_TELEMETRY_DISABLED=1
+RUN npm run typecheck && npm test && npm run build
+VOLUME ["/app/data", "/app/out", "/app/.eve", "/shared"]
+CMD ["npm", "run", "batch", "--", "--help"]

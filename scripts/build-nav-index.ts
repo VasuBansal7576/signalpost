@@ -1,0 +1,11 @@
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
+import {dirname,resolve} from 'node:path';
+import {parseArgs} from 'node:util';
+import {gzipSync} from 'node:zlib';
+import {NavFeed,navCatalogueSchema} from '../src/nav-feed.ts';
+import {hash} from '../src/domain.ts';
+const {values}=parseArgs({options:{output:{type:'string',default:'data/nav-catalogue.json'},'raw-directory':{type:'string'},'refresh-from':{type:'string'}}});
+await mkdir(dirname(resolve(values.output!)),{recursive:true});if(values['raw-directory'])await mkdir(values['raw-directory'],{recursive:true});
+const feed=new NavFeed(fetch,AbortSignal.timeout(2700000),message=>console.error(message),async(url,text)=>{if(values['raw-directory'])await writeFile(resolve(values['raw-directory'],hash(url)+'-'+hash(text)+'.json.gz'),gzipSync(text),{mode:0o600});});
+let catalogue;if(values['refresh-from'])catalogue=await feed.catchUp(navCatalogueSchema.parse(JSON.parse(await readFile(values['refresh-from'],'utf8'))));else{await feed.load();catalogue=await feed.hydrate();if(catalogue.complete)catalogue=await feed.catchUp(catalogue);}await writeFile(values.output!,JSON.stringify(catalogue)+'\n',{mode:0o600});
+console.log(JSON.stringify({complete:catalogue.complete,records:catalogue.records.length,failures:catalogue.failures.length,requests:feed.manifest.requests,started_at:catalogue.collection_started_at,completed_at:catalogue.completed_at}));if(!catalogue.complete)process.exitCode=1;

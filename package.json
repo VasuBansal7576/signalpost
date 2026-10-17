@@ -1,0 +1,47 @@
+{
+  "name": "signalpost",
+  "version": "0.1.0",
+  "private": true,
+  "overrides": {
+    "guarded-fetch": "0.1.5"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "eve dev --no-default-extensions",
+    "build": "eve build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test --test-concurrency=1 tests/*.test.ts",
+    "batch": "node --import tsx src/cli.ts",
+    "quality:run": "node --import tsx scripts/quality.ts run",
+    "quality:evaluate": "node --import tsx scripts/quality.ts evaluate",
+    "quality:claims": "node --import tsx scripts/quality.ts claims",
+    "quality:select": "python3 scripts/select-quality.py",
+    "demo": "node --import tsx src/cli.ts --demo --organisations examples/companies.jsonl --output out/demo/results.jsonl --run-id demo",
+    "doctor": "node --import tsx src/doctor.ts",
+    "dashboard": "node --import tsx src/dashboard.ts",
+    "check:dashboard": "node scripts/check-dashboard.mjs",
+    "audit:benchmark": "node --import tsx scripts/audit-benchmark.ts",
+    "import:smoke": "node --import tsx src/import-smoke.ts",
+    "benchmark:cold": "node --import tsx scripts/run-cold-benchmark.mjs"
+  },
+  "dependencies": {
+    "ai": "7.0.141",
+    "csv-parse": "7.0.3",
+    "entities": "8.1.0",
+    "eve": "0.79.1",
+    "exa-js": "2.25.0",
+    "just-bash": "3.6.0",
+    "parse5": "8.0.0",
+    "playwright-core": "1.62.1",
+    "undici": "8.10.2",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

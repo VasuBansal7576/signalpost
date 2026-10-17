@@ -1,0 +1,6 @@
+import{test}from'node:test';import assert from'node:assert/strict';import{Store}from'../src/store.ts';import{ResearchService}from'../src/service.ts';
+test('empty normalized registry collections are observed absence, never populated findings',async()=>{
+ const store=new Store(':memory:'),org='999111222';
+ const transport:typeof fetch=async url=>String(url).includes('underenheter?')?Response.json({_embedded:{underenheter:[]},page:{totalElements:0}}):String(url).endsWith('/roller')?Response.json({rollegrupper:[]}):String(url).endsWith('/aar')?Response.json([]):Response.json({}, {status:404});
+ try{const service=new ResearchService(store,{db:':memory:',maxExaUsd:0,maxSearches:0,maxPages:0},transport),job=store.createJob(org,'empty-registry','registry'),baseline=await service.registry(job);for(const field of ['workplaces','financial_history','leadership']){const claim=baseline.claims.find(c=>c.field===field);assert.equal(claim?.availability,'not_available',field+' must not inflate populated coverage');assert.equal(claim?.value,null);assert.ok(claim.evidence_ids.length);}const profile=service.finalize(job,baseline,[]);assert.equal(profile.run.terminal_status,'failed','an absent legal identity and empty responses cannot create a successful profile');assert.equal(profile.claims.some(c=>c.availability==='available'),false);}finally{store.close()}
+});

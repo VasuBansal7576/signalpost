@@ -1,0 +1,11 @@
+import{extractionSpans}from'./evidence-blocks.ts';import{validationPolicy}from'./policy.ts';import type{semanticReviewPacket}from'./semantic-verifier.ts';
+type Packet=ReturnType<typeof semanticReviewPacket>;
+/** Lossless core-source block sharing and equal quote/value compaction. No relevance guesses. */
+export function semanticWirePacket(packet:Packet){
+ const counts=new Map<string,number>();for(const s of packet.sources)for(const line of s.text.split('\n'))if(line.length>=80)counts.set(line,(counts.get(line)??0)+1);
+ const shared=new Map<string,string>(),blocks:{id:string;text:string}[]=[];
+ const sources=packet.sources.map(s=>{const content:{start:number;end:number;text?:string;shared_block?:string}[]=[];for(const span of extractionSpans(s)){let cursor=span.start,plain=cursor;for(const line of s.text.slice(span.start,span.end).split('\n')){const end=cursor+line.length;if((counts.get(line)??0)>1){if(cursor>plain)content.push({start:plain,end:cursor,text:s.text.slice(plain,cursor)});let id=shared.get(line);if(!id){id='b'+blocks.length;shared.set(line,id);blocks.push({id,text:line});}content.push({start:cursor,end,shared_block:id});plain=end;}cursor=end+1;}if(plain<span.end)content.push({start:plain,end:span.end,text:s.text.slice(plain,span.end)});}return{id:s.id,url:s.url,retrieved_at:s.retrieved_at,document:s.document,content};});
+ const claims=packet.claims.map(({proposal_key,proposal,qualifiers,...c})=>{const{quote,...rest}=proposal,{validation_policy,...scope}=qualifiers??{};return{...c,qualifiers:validation_policy===validationPolicy?scope:qualifiers,proposal:quote===proposal.value?{...rest,quote_equals_value:true}:{...proposal}};});
+ const compact={identity:packet.identity,verification_policy:validationPolicy,claims,sources,shared_blocks:blocks,context_encoding:'ordered-source-offset-blocks/v1'},full={...packet,claims:packet.claims.map(({proposal_key,...c})=>c)};
+ const before=Buffer.byteLength(JSON.stringify(full)),after=Buffer.byteLength(JSON.stringify(compact));return{packet:after<before?compact:full,input_bytes:Math.min(before,after),full_input_bytes:before,encoding:after<before?'ordered-source-offset-blocks/v1':'full-source/v1',shared_blocks:after<before?blocks.length:0};
+}

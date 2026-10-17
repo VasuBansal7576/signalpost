@@ -1,0 +1,209 @@
+{
+  "source_commit": "e558e5a34e8ea5b5d457d87b297888783e57cfdc",
+  "captured_at": "2026-10-17T17:35:17.924Z",
+  "cohort_input_count": 100,
+  "terminal_profiles_checked": 100,
+  "selection_count_limit": 100,
+  "source_snapshots_checked": 2036,
+  "exported_evidence_checked": 2145,
+  "projection_lineages_checked": 100,
+  "failures": [],
+  "populated_field_coverage": {
+    "legal_name": 100,
+    "legal_form": 100,
+    "registered_address": 100,
+    "registered_postal_address": 19,
+    "industry": 100,
+    "registered_website": 13,
+    "latest_submitted_accounts": 100,
+    "registry_activity": 100,
+    "registered_purpose": 94,
+    "historical_names": 34,
+    "legal_status": 100,
+    "financials": 100,
+    "revenue": 78,
+    "operating_result": 99,
+    "profit_before_tax": 99,
+    "annual_result": 100,
+    "assets": 100,
+    "equity": 100,
+    "liabilities": 96,
+    "leadership": 100,
+    "workplaces": 84,
+    "financial_history": 100,
+    "group_structure": 4,
+    "hiring": 2,
+    "locations": 4,
+    "business_description": 6,
+    "official_website": 7,
+    "company_owned_profiles": 2,
+    "public_activity": 2,
+    "public_reputation": 0,
+    "registered_employee_count": 9,
+    "group_revenue": 3,
+    "group_operating_result": 3,
+    "group_profit_before_tax": 3,
+    "group_annual_result": 3,
+    "group_assets": 3,
+    "group_equity": 3,
+    "group_liabilities": 3
+  },
+  "field_status_companies": {
+    "legal_name": {
+      "available": 100
+    },
+    "legal_form": {
+      "available": 100
+    },
+    "registered_address": {
+      "available": 100
+    },
+    "registered_postal_address": {
+      "available": 19
+    },
+    "industry": {
+      "available": 100
+    },
+    "registered_website": {
+      "available": 13
+    },
+    "latest_submitted_accounts": {
+      "available": 100
+    },
+    "registry_activity": {
+      "available": 100
+    },
+    "registered_purpose": {
+      "available": 94
+    },
+    "historical_names": {
+      "available": 34
+    },
+    "legal_status": {
+      "available": 100
+    },
+    "financials": {
+      "available": 100
+    },
+    "revenue": {
+      "not_available": 22,
+      "available": 78
+    },
+    "operating_result": {
+      "available": 99,
+      "not_available": 1
+    },
+    "profit_before_tax": {
+      "available": 99,
+      "not_available": 1
+    },
+    "annual_result": {
+      "available": 100
+    },
+    "assets": {
+      "available": 100
+    },
+    "equity": {
+      "available": 100
+    },
+    "liabilities": {
+      "available": 96,
+      "not_available": 4
+    },
+    "leadership": {
+      "available": 100
+    },
+    "workplaces": {
+      "available": 84,
+      "not_available": 16
+    },
+    "financial_history": {
+      "available": 100
+    },
+    "group_structure": {
+      "not_available": 96,
+      "available": 4
+    },
+    "hiring": {
+      "available": 94,
+      "ambiguous": 6
+    },
+    "locations": {
+      "available": 56,
+      "ambiguous": 44
+    },
+    "business_description": {
+      "ambiguous": 94,
+      "available": 6
+    },
+    "official_website": {
+      "ambiguous": 93,
+      "available": 7
+    },
+    "company_owned_profiles": {
+      "ambiguous": 98,
+      "available": 2
+    },
+    "public_activity": {
+      "ambiguous": 98,
+      "available": 2
+    },
+    "public_reputation": {
+      "ambiguous": 100
+    },
+    "registered_employee_count": {
+      "available": 9
+    },
+    "group_revenue": {
+      "available": 3
+    },
+    "group_operating_result": {
+      "available": 3
+    },
+    "group_profit_before_tax": {
+      "available": 3
+    },
+    "group_annual_result": {
+      "available": 3
+    },
+    "group_assets": {
+      "available": 3
+    },
+    "group_equity": {
+      "available": 3
+    },
+    "group_liabilities": {
+      "available": 3
+    }
+  },
+  "terminal_statuses": {
+    "partial": 100
+  },
+  "errors": {
+    "research_failed": 2,
+    "financial_normalization": 8,
+    "public_survey_unavailable": 1
+  },
+  "web_claims": 280,
+  "model_usage_incomplete_profiles": 3,
+  "cost_incomplete_profiles": 83,
+  "known_model_api_equivalent_usd": 0.5257721,
+  "known_input_tokens": 6443870,
+  "known_output_tokens": 65677,
+  "hiring_observations": {
+    "companies_with_verified_nav_query": 94,
+    "companies_with_nav_ads": 2,
+    "attributed_nav_ads": 2,
+    "companies_with_other_recruitment_information": 0,
+    "company_wide_no_hiring_claims": 0,
+    "note": "Completed NAV source checks are separate from populated hiring information and positive recruitment signals."
+  },
+  "model_attempt_states": {
+    "completed": 128,
+    "uncertain": 2
+  },
+  "post_cutoff_proposals": 0,
+  "evaluation_assisted_claims": 0,
+  "limitations": "Current acquired-source mechanical verification and populated availability only. No independent reference opportunities or semantic precision/recall certificate. In-progress receipts are not assumed complete.",
+  "completed_at": "2026-10-17T17:35:19.032Z"
+}

@@ -1,0 +1,9 @@
+{
+  "archive": "signalpost-source-0f056c5-sanitized.zip",
+  "sha256": "cfc0d3e17635e1c3fcb9aa32ee3143621779bddbaec097916f43f15dbcf83852",
+  "entries": 325,
+  "expanded_private_pattern_hits": [],
+  "explicit_synthetic_token_occurrences": 4,
+  "private_historical_postmortem_excluded": true,
+  "limitations": "Bounded pattern scan with gzip/escaped JSON expansion; not exhaustive privacy, secret or publisher-rights clearance. No Git history included. Earlier source archives/history remain private."
+}

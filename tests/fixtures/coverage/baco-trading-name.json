@@ -1,0 +1,156 @@
+{
+  "captured_at": "2026-10-17T14:13:07.612Z",
+  "identity": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/enheter/915190596"
+      }
+    },
+    "aktivitet": [
+      "Produsere brød og ferske konditorvarer. Forretningsvirksomhet, eie og",
+      "handle med verdipapirer og aksjer samt å utøve tilknyttet virksomhet,",
+      "herunder å investere i og delta sammen med andre foretak i slik",
+      "virksomhet."
+    ],
+    "antallAnsatte": 34,
+    "erIKonsern": false,
+    "forretningsadresse": {
+      "adresse": [
+        "O. Skasliens veg 1"
+      ],
+      "kommune": "OPPDAL",
+      "kommunenummer": "5021",
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "7340",
+      "poststed": "OPPDAL"
+    },
+    "harRegistrertAntallAnsatte": true,
+    "historiskeNavn": [],
+    "institusjonellSektorkode": {
+      "beskrivelse": "Private aksjeselskaper mv.",
+      "kode": "2100"
+    },
+    "kapital": {
+      "antallAksjer": 300,
+      "belop": 300000.0,
+      "innfortDato": "2015-03-31",
+      "type": "Aksjekapital",
+      "valuta": "NOK"
+    },
+    "konkurs": false,
+    "maalform": "Bokmål",
+    "naeringskode1": {
+      "beskrivelse": "Produksjon av brød og ferske konditorvarer",
+      "kode": "10.710"
+    },
+    "navn": "BACO AS",
+    "organisasjonsform": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+        }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+    },
+    "organisasjonsnummer": "915190596",
+    "paategninger": [],
+    "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-09-14",
+    "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-09-10",
+    "registreringsdatoEnhetsregisteret": "2015-03-31",
+    "registreringsdatoForetaksregisteret": "2015-03-31",
+    "registreringsdatoMerverdiavgiftsregisteret": "2015-03-01",
+    "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2015-04-08",
+    "registrertIForetaksregisteret": true,
+    "registrertIFrivillighetsregisteret": false,
+    "registrertIMvaregisteret": true,
+    "registrertIPartiregisteret": false,
+    "registrertIStiftelsesregisteret": false,
+    "respons_klasse": "Enhet",
+    "sisteInnsendteAarsregnskap": "2025",
+    "stiftelsesdato": "2015-03-17",
+    "underAvvikling": false,
+    "underTvangsavviklingEllerTvangsopplosning": false,
+    "vedtektsdato": "2015-03-17",
+    "vedtektsfestetFormaal": [
+      "Forretningsvirksomhet, eie og handle med verdipapirer og aksjer samt å",
+      "utøve tilknyttet virksomhet, herunder å investere i og delta sammen",
+      "med andre foretak i slik virksomhet."
+    ]
+  },
+  "workplaces": {
+    "_embedded": {
+      "underenheter": [
+        {
+          "_links": {
+            "self": {
+              "href": "https://data.brreg.no/enhetsregisteret/api/underenheter/915232795"
+            },
+            "overordnetEnhet": {
+              "href": "https://data.brreg.no/enhetsregisteret/api/enheter/915190596"
+            }
+          },
+          "antallAnsatte": 34,
+          "beliggenhetsadresse": {
+            "adresse": [
+              "Ola Setroms veg 42"
+            ],
+            "kommune": "OPPDAL",
+            "kommunenummer": "5021",
+            "land": "Norge",
+            "landkode": "NO",
+            "postnummer": "7340",
+            "poststed": "OPPDAL"
+          },
+          "harRegistrertAntallAnsatte": true,
+          "historiskeNavn": [
+            {
+              "fraDato": "2015-04-13 20:20:18",
+              "navn": "BACO AS",
+              "tilDato": "2015-04-27 20:10:31"
+            }
+          ],
+          "naeringskode1": {
+            "beskrivelse": "Produksjon av brød og ferske konditorvarer",
+            "kode": "10.710"
+          },
+          "navn": "BAKERIET SPRØ",
+          "oppstartsdato": "2015-03-17",
+          "organisasjonsform": {
+            "_links": {
+              "self": {
+                "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/BEDR"
+              }
+            },
+            "beskrivelse": "Underenhet til næringsdrivende og offentlig forvaltning",
+            "kode": "BEDR"
+          },
+          "organisasjonsnummer": "915232795",
+          "overordnetEnhet": "915190596",
+          "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-09-12",
+          "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-09-10",
+          "registreringsdatoEnhetsregisteret": "2015-04-13",
+          "registrertIMvaregisteret": false,
+          "respons_klasse": "Underenhet"
+        }
+      ]
+    },
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=915190596&size=1000"
+      }
+    },
+    "page": {
+      "number": 0,
+      "size": 1000,
+      "totalElements": 1,
+      "totalPages": 1
+    }
+  },
+  "source": {
+    "url": "https://www.spro.no/",
+    "text": "-->\nBakeriet SPRØ håndverksbakeri - Artisan bakery - Oppdal, Norway\ntop of page\nHJEM\nOM\nMENY\nESPRESSO\nKONTAKT\nBRØDTIPS\nJOBB\nGAVEKORT\nMer\nUse tab to navigate through the menu items.\nHJEM\nOM\nMENY\nESPRESSO\nKONTAKT\nBRØDTIPS\nJOBB\nGAVEKORT\nMer\nUse tab to navigate through the menu items.\nTelefon +47 48 95 98 08\nNATURLIG BAKEVARE\nI Bakeriet SPRØ tilbyr vi ferske og naturlige bakevarer stekt i steinovn, nysmurte sandwich, et bredt utvalg av drikke og en meny som varierer med dag og sesong. Vi serverer kaffe som er brent i Ålesund dagen før den kommer hit. Vi håper du liker det du ser og vi tar veldig gjerne i mot tilbakemeldinger. Velkommen!\nGina M. Schønheyder\nKONTAKT\nTelefon +47 48 95 98 08\nE-post fixture-contact-88@spro.no\n© 2015 Baco AS.\nFØLG OSS\nADRESSE\nOla Setroms veg 38\n7340 Oppdal\nNorge\nÅPNINGSTIDER\nMandag-Torsdag 9-17\n(juli: 8-18)\nFredag 9-19\nLørdag 9-18\nSøndag 10-17\nLOKALMAT\nbottom of page\n\n[Page metadata description]\nBakeriet SPRØ tilbyr ferske og naturlige bakevarer stekt i steinovn, nysmurte sandwich, et bredt utvalg av drikke og en meny som varierer med dag og sesong.\n\n[Structured data from this page]\n{\"@context\":\"https://schema.org/\",\"@type\":\"WebSite\",\"name\":\"Bakeriet SPRØ\",\"url\":\"https://www.spro.no\"}",
+    "sha256": "c5b963c2ff8def5746236ce55308dfaf692885ca7652837770fa3f6cb1bee371"
+  }
+}

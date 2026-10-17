@@ -1,0 +1,97 @@
+[
+  {
+    "organisation_number": "929641590",
+    "claims": [
+      {
+        "field": "registry_activity",
+        "value": [
+          "Tømrar med sal av dertilhøyrande varer og tenester."
+        ],
+        "availability": "available",
+        "confidence": null,
+        "evidence_ids": [
+          "1097203937a15ded19f21266c52c00d896f32eedbfb9354381b562e3aff1a4a1"
+        ],
+        "qualifiers": {
+          "validation_policy": "signalpost-scope/20261017-v15"
+        }
+      },
+      {
+        "field": "business_description",
+        "value": "Funksjon Utførende\nFagområde Tømrerarbeid og montering av trekonstruksjoner\nTiltaksklasse 1",
+        "availability": "available",
+        "confidence": null,
+        "evidence_ids": [
+          "26610a8e6c80b5353a1b391885b903d124779d4924489612c28a3cb244be477b",
+          "49eac678c85367aa18e1c1827fbcca56cff0faed10dd69f5e391725613b29eca"
+        ],
+        "qualifiers": {
+          "attribution": "official-approval-register",
+          "source_scope": "official_reported_competence",
+          "approval_valid_from": "2024-02-15",
+          "approval_valid_until": "2027-02-15",
+          "approval_current_at_observation": true,
+          "observed_at": "2026-10-17T02:59:09.233Z",
+          "completion_of_projects_established": false,
+          "current_services_independently_established": false,
+          "validation_policy": "signalpost-scope/20261017-v15"
+        }
+      }
+    ],
+    "expected_scope": "Approval is competence with validity, not current service delivery"
+  },
+  {
+    "organisation_number": "925610623",
+    "claims": [
+      {
+        "field": "registry_activity",
+        "value": [
+          "Utvikling og salg av programvare."
+        ],
+        "availability": "available",
+        "confidence": null,
+        "evidence_ids": [
+          "13724c6ff21ea5138848f278b3f66c38151fd9dc6b2a2c4b2545b3ec9d2d0c7c"
+        ],
+        "qualifiers": {
+          "validation_policy": "signalpost-scope/20261017-v15"
+        }
+      },
+      {
+        "field": "business_description",
+        "value": "Caplist has all functions in place to run a fully digital general meeting in a secure and compliant manner",
+        "availability": "available",
+        "confidence": null,
+        "evidence_ids": [
+          "bce0e0734acab11ab34e882a19a2315338bc590ce913718b543fb56d0b48b9be",
+          "a9f1a6e2fd08375ddbd6043d4b41d3e7ebf36e8b1086d3e8344f10de91a803f4",
+          "13b48f055c175c5dc841ea54ac0f34cc2d586a3c4a22f5663d7173456692438a",
+          "5d1a2a4e10bdf59cfb92b94b8cb69d515d8aacba4ebd2c476680502ec6e8d1bd",
+          "c4f1c8b25a801b6621f5e7b34c69511ef9f3d812c43c9636ba1ab4ae76c350a1",
+          "179368022e0471076dbea7e8d85b3493b89c4b7107ec0c523bd5df15bd64cf41",
+          "783c1ad47fd068a9782743041de2577a8d9c1d8948fd56c305bb8517d560103f",
+          "75864178c642f57289b53f5a9a8ea48a1db5fb66ba1272fe9bddb5c11abb9f51",
+          "379de40a5c4bdfc8d73e300fcaca6e380ecc878568117485e4b6c823263e8652"
+        ],
+        "reporting_period": null,
+        "qualifiers": {
+          "attribution": "legal-identifier-on-brand-domain",
+          "source_scope": "company_product_during_reported_migration",
+          "validation_policy": "signalpost-scope/20261017-v15",
+          "publisher_reported_offering": true,
+          "current_independent_provider_established": false,
+          "reported_acquirer": "Nexus Connect AS",
+          "reported_acquisition_year": 2026,
+          "legal_share_transaction_established": false,
+          "migration_context": "Own homepage states all Caplist customers are being transferred to Nexus Connect; exact legal entity/domain ownership transition unresolved.",
+          "publication_review": "source_bound_assistant_review",
+          "publication_review_receipt_sha256": "bd79e634d55e950eaec781a9747fe3c5f2d0b9604988f85ac68decb1d135f2ee",
+          "evaluation_assisted": true,
+          "review_reason": "Literal retained software capabilities are product history/continuing site copy during explicit2026Nexus acquisition/customer migration, not proof target AS independently operates the present provider. Exact legal transaction scope is unverified.",
+          "reason": "Literal retained software capabilities are product history/continuing site copy during explicit2026Nexus acquisition/customer migration, not proof target AS independently operates the present provider. Exact legal transaction scope is unverified."
+        }
+      }
+    ],
+    "expected_scope": "Provider migration and unestablished current independence must survive synthesis"
+  }
+]

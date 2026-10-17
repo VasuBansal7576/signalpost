@@ -1,0 +1,4 @@
+import{test}from'node:test';import assert from'node:assert/strict';import{Store}from'../src/store.ts';
+test('a source catalogue version is immutable and repeated company queries do not rewrite its blob',()=>{
+ const store=new Store(':memory:');try{const original={version:1,records:[{employer_org:'999111222',title:'Verified source'}]};store.saveCatalogue('content-version',original);const writes=store.db.prepare('SELECT total_changes() n').get()!.n;for(let i=0;i<100;i++)store.saveCatalogue('content-version',original);assert.equal(store.db.prepare('SELECT total_changes() n').get()!.n,writes,'the same version must not be rewritten for every company');store.saveCatalogue('content-version',{version:1,records:[]});assert.deepEqual(store.catalogue('content-version'),original,'a stored content version cannot silently change');}finally{store.close()}
+});

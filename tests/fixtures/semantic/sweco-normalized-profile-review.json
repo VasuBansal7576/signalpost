@@ -1,0 +1,141 @@
+{
+  "identity": {
+    "_links": {
+      "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/enheter/967032271"
+      }
+    },
+    "aktivitet": [
+      "Rådgivende ingeniører innen energi, vann & miljø, areal & transport,",
+      "bygg & konstruksjoner, tekniske installasjoner."
+    ],
+    "antallAnsatte": 2256,
+    "epostadresse": "fixture-contact-33@sweco.no",
+    "erIKonsern": true,
+    "forretningsadresse": {
+      "adresse": [
+        "Norbygata 14"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0187",
+      "poststed": "OSLO"
+    },
+    "frivilligMvaRegistrertBeskrivelser": [
+      "Utleier av bygg eller anlegg"
+    ],
+    "harRegistrertAntallAnsatte": true,
+    "historiskeNavn": [
+      {
+        "fraDato": "1995-02-20 02:23:00",
+        "navn": "STATKRAFT ENGINEERING AS",
+        "tilDato": "2000-07-03 08:20:59"
+      },
+      {
+        "fraDato": "2000-07-03 08:20:59",
+        "navn": "STATKRAFT GRØNER AS",
+        "tilDato": "2004-01-19 20:35:57"
+      },
+      {
+        "fraDato": "2004-01-19 20:35:57",
+        "navn": "SWECO GRØNER AS",
+        "tilDato": "2008-02-27 20:28:19"
+      }
+    ],
+    "hjemmeside": "www.sweco.no",
+    "institusjonellSektorkode": {
+      "beskrivelse": "Private aksjeselskaper mv.",
+      "kode": "2100"
+    },
+    "kapital": {
+      "antallAksjer": 152349,
+      "belop": 15234900,
+      "innfortDato": "2003-09-03",
+      "type": "Aksjekapital",
+      "valuta": "NOK"
+    },
+    "konkurs": false,
+    "maalform": "Bokmål",
+    "naeringskode1": {
+      "beskrivelse": "Byggeteknisk konsulentvirksomhet",
+      "kode": "71.121"
+    },
+    "naeringskode2": {
+      "beskrivelse": "Annen teknisk konsulentvirksomhet",
+      "kode": "71.129"
+    },
+    "navn": "SWECO NORGE AS",
+    "organisasjonsform": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+        }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+    },
+    "organisasjonsnummer": "967032271",
+    "paategninger": [],
+    "postadresse": {
+      "adresse": [
+        "Postboks 80 Skøyen"
+      ],
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "land": "Norge",
+      "landkode": "NO",
+      "postnummer": "0212",
+      "poststed": "OSLO"
+    },
+    "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-09-14",
+    "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-09-10",
+    "registreringsdatoEnhetsregisteret": "1995-02-20",
+    "registreringsdatoForetaksregisteret": "1993-07-17",
+    "registreringsdatoFrivilligMerverdiavgiftsregisteret": "2021-03-04",
+    "registreringsdatoMerverdiavgiftsregisteret": "2003-09-01",
+    "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2003-08-27",
+    "registrertIForetaksregisteret": true,
+    "registrertIFrivillighetsregisteret": false,
+    "registrertIMvaregisteret": true,
+    "registrertIPartiregisteret": false,
+    "registrertIStiftelsesregisteret": false,
+    "respons_klasse": "Enhet",
+    "sisteInnsendteAarsregnskap": "2025",
+    "stiftelsesdato": "1993-07-01",
+    "telefon": "00000013",
+    "underAvvikling": false,
+    "underTvangsavviklingEllerTvangsopplosning": false,
+    "vedtektsdato": "2008-01-29",
+    "vedtektsfestetFormaal": [
+      "Tilby ingeniør-, miljø-, og forretningsrådgivning og totalløsninger,",
+      "samt å delta i andre selskap med samme eller lignende formål."
+    ]
+  },
+  "source": {
+    "organisation_number": "967032271",
+    "run_id": "architecture-fresh-1000-1792176223066",
+    "source_url": "https://www.sweco.no/",
+    "source_class": "company_owned",
+    "text": "Sweco Norge - Transforming society together\nSkip to content\nVåre tjenester Våre tjenester\nProsjekt- og byggeledelse\nBygninger Akustikk i bygninger\nArkitektur\nBIM i bygninger\nKlima- og miljøvennlige bygg\nBrannrådgivning\nTekniske fag\nKonstruksjoner\nEnergi, miljø og industri Elektrifisering\nFornybar energi\nIndustri\nKraftnett\nMat og medisiner\nMiljø\nMineraler og ressurser\nStrategisk rådgivning\nVannkraft\nInfrastruktur Bane\nBIM i samferdselsprosjekter\nAkustikk i samferdselsprosjekter\nArealplanlegging\nBruer\nFlom og skred\nGeo\nLandskapsarkitektur\nTunnel\nVann, avløp og overvann\nVei og trafikk\nHavner\nSweco Architects Byutvikling\nInteriørarkitektur\nBolig\nNæringsbygg\nTransformasjon\nLandskap\nUndervisning\n3D – Visualisering\nProsjekter\nAktuelt Nyheter\nKunngjøringer\nUrban Insight by Sweco\nBærekraft\nKontakt oss\nKarriere\nNO\nEN\nHva ser du etter?\n0\nof 0\nfor \" \"\nVis alle resultater\nDu besøker nå Sweco Norge | Choose your region for Sweco's local offering and careers\nSweco Group\nEnglish\nBelgium\nDutch\nFrench\nEnglish\nDenmark\nDanish\nEnglish\nEstonia\nEstonian\nFinland\nFinnish\nEnglish\nFrance\nFrench\nGermany\nGerman\nIndia\nEnglish\nIreland\nEnglish\nLithuania\nLithuanian\nLuxembourg\nEnglish\nFrench\nGerman\nLuxembourgish\nNetherlands\nDutch\nNorway\nNorwegian\nEnglish\nPoland\nPolish\nSweden\nSwedish\nUnited Kingdom\nEnglish\nVåre tjenester Prosjekt- og byggeledelse\nBygninger Akustikk i bygninger\nArkitektur\nBIM i bygninger\nKlima- og miljøvennlige bygg\nBrannrådgivning\nTekniske fag\nKonstruksjoner\nEnergi, miljø og industri Elektrifisering\nFornybar energi\nIndustri\nKraftnett\nMat og medisiner\nMiljø\nMineraler og ressurser\nStrategisk rådgivning\nVannkraft\nInfrastruktur Bane\nBIM i samferdselsprosjekter\nAkustikk i samferdselsprosjekter\nArealplanlegging\nBruer\nFlom og skred\nGeo\nLandskapsarkitektur\nTunnel\nVann, avløp og overvann\nVei og trafikk\nHavner\nSweco Architects Byutvikling\nInteriørarkitektur\nBolig\nNæringsbygg\nTransformasjon\nLandskap\nUndervisning\n3D – Visualisering\nProsjekter\nAktuelt Nyheter\nKunngjøringer\nUrban Insight by Sweco\nBærekraft\nKontakt oss\nKarriere\nInvestor Relations\nOm Sweco Norge Om oss\nLedergruppe Sweco Norge\nSwecos regionledere\nAbout Us\nNO\nEN\nTransforming\nSociety Together.\nMaking a difference in everything we do.\nHva ser du etter?\nBygninger\nEnergi, miljø og\nindustri\nInfrastruktur\nSweco\nArchitects\nProsjekt- og byggeledelse\nProsjekt- og byggeledelse\nMarkedsplassen\nMarkedsplassen\nKarrieresider\nKarrieresider\nSweco er Europas ledende rådgivende arkitekt- og ingeniørvirksomhet.\n23.000\nARKITEKTER, INGENIØRER OG SPESIALISTER\nÅ løse samfunnsutfordringer innebærer å tenke nytt.\nVerden drives fremover av deg som utfordrer samtiden, og nå ønsker vi oss flere rådgivere som vil tenke nytt for å transformere samfunnet.\nEr du den vi leter etter?\nLedige stillinger\nÅrets Urban Insight-tema:\nHvordan kan vi bevare og styrke biologisk mangfold?\nLes mer her\nSiste nytt\nKunngjøringer 21/09/2026 Kunngjøring: Igangsetting av reguleringsarbeid med konsekvensutredning\nLes mer\nEvents 21/09/2026 Frokostmøte om bærekraft i infrastrukturprosjekter\nFrokostmøte om bærekraft i infrastrukturprosjekter Les mer\nKunngjøringer 14/09/2026 Melding om igangsetting av reguleringsarbeid for Steinkjer kornsilo – utvidelse\nVARSEL OM OPPSTART AV REGULERINGSARBEID: Detaljregulering for KBA7 Bømoen, gnr/bnr 92/5 m.fl. PlanID: 2026002 Les mer\nFlere nyheter\nBærekraft\nBehovet for å dele kunnskap er større enn noen sinne. Innen 2030 skal Sweco Norge redusere sine klimagassutslipp med minimum 55 prosent, og innen 2040 skal hele Sweco-konsernet være klimanøytrale.\nUrban Insight\nHer kan du lese rapporter og få innsikt i hvordan vi kan skape mer klimatilpassede og bærekraftige byer og samfunn på tvers av Europa.\nÅ jobbe i Sweco\nI Sweco former vi fremtidens bærekraftige byer og samfunn. Nysgjerrig på hvordan det er å jobbe her?\nFinner du ikke det du leter etter?\nEller har du et spørsmål? Send oss en henvendelse, så finner vi riktig person for å svare på denne. Våre eksperter er klare for å løse dine utfordringer.\nLinkedIn\nDette feltet er for valideringsformål og skal stå uendret.\nNavn *\nHvor jobber du?\nHva er din lokasjon *\nFortell oss hvor du holder til, så blir det lettere for oss å sette deg i kontakt med riktig person.\nE-post *\nTelefonnummer *\nFortell oss hva du lurer på *\nSamtykke * Ved å klikke her godtar du samtykkeerklæringen\nSend inn\nOm oss\nSweco planlegger og utformer morgendagens bærekraftige samfunn og byer. Med den samlede kompetansen til våre 23 000 arkitekter, ingeniører og andre eksperter samarbeider vi med kundene våre for å muliggjøre det grønne skiftet, maksimere potensialet i digitalisering og styrke Europas konkurranseevne og robusthet.\nSweco er Europas ledende rådgivningsselskap innen arkitektur og ingeniørfag, med en omsetning på cirka 32 milliarder SEK (2,9 milliarder EUR) i 2025. Selskapet er notert på Nasdaq Stockholm.\nwww.swecogroup.com\nSweco Norge AS\nNorbygata 14, 0187 Oslo\nTlf. (+47) 00000013\nfixture-contact-33@sweco.no\n© 2025 Sweco.\nSnarveier\nSweco Group\nKarriere\nUrban Insight\nKlima og bærekraft\nProsjekter\nPresse\nOm Sweco Norge\nVåre tjenester\nArkitektur og byutvikling\nBygninger\nEnergi, miljø og industri\nInfrastruktur\nVåre tjenester\nSocial media\nFacebook\nInstagram\nLinkedIn\nX (Twitter)\nTilbake til toppen\n© 2026 Sweco AB\nPrivacy policy\nCookie policy\nManage consent\nAdministrer samtykke\nVi og våre partnere bruker informasjonskapsler og lignende teknologier for å drive nettsiden vår, analysere trafikk, personalisere innhold og vise og måle personlige annonser. Du kan akseptere alle informasjonskapsler, avvise ikke-essensielle informasjonskapsler, eller administrere dine preferanser nedenfor. For mer informasjon, vennligst besøk vår informasjonskapselpolicy\nFunksjonell\nFunksjonell\nAlltid aktiv\nThe technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.\nPreferences\nPreferences\nThe technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.\nStatistics\nStatistics\nThe technical storage or access that is used exclusively for statistical purposes.\nThe technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.\nMarketing\nMarketing\nThe technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.\nAdministrer alternativer\nAdministrer tjenester\nAdministrer {vendor_count} leverandører\nLes mer om disse formålene\nGodta alle informasjonskapsler\nAvvis alle informasjonskapsler\nVis preferanser\nLagre preferanser\nVis preferanser\n{title}\n{title}\n{title}\nManage consent\n\n[Page metadata description]\nSweco former fremtidens bærekraftige byer og samfunn. Våre ingeniører, arkitekter og planleggere tilbyr tjenester innen ingeniør-, miljø- og arkitekturfag.\n\n[Structured data from this page]\n{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"WebSite\",\"name\":\"Sweco Norge\",\"alternateName\":\"Sweco Norge\",\"description\":\"Transforming Society Together\",\"url\":\"https:\\/\\/www.sweco.no\"}\n{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"@id\":\"https://www.sweco.no/#structured-data\",\"headline\":\"Home\",\"url\":\"https://www.sweco.no/\",\"inLanguage\":\"nb-NO\",\"datePublished\":\"2020-07-08T10:43:29+02:00\",\"dateModified\":\"2026-09-02T15:54:09+02:00\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Sweco Norge\",\"url\":\"https://www.sweco.no/\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://www.sweco.no/wp-content/uploads/sites/13/2023/10/sweco-logotype.png\"},\"@id\":\"https://www.sweco.no/#organization\"},\"image\":[{\"@type\":\"ImageObject\",\"url\":\"https://www.sweco.no/wp-content/uploads/sites/13/2025/11/Sweco-Urtegata.Photo-Einar-Aslaksen-05226-33354280.jpg\",\"width\":11641,\"height\":8731}]}\n\n[Links extracted from this page]\nhttps://gmpg.org/xfn/11\nhttps://www.sweco.no/\nhttps://www.sweco.no/en/\nhttps://www.sweco.no/feed/\nhttps://www.sweco.no/comments/feed/\nhttps://www.sweco.no/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sweco.no%2F\nhttps://www.sweco.no/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sweco.no%2F&format=xml\nhttps://www.sweco.no/wp-content/themes/sweco/dist/css/app.min.css?ver=1790679919\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/hero.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/architect-intro.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/overlapping-content-block.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/overlapping-content-block-2.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/featured-showroom.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/latest-insights.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/fullwidth-call-to-actions.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/the-sweco-plugin/dist/css/form-block.min.css?ver=1790679914\nhttps://www.sweco.no/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style.min.css?ver=1\nhttps://www.sweco.no/wp-content/plugins/complianz-gdpr-premium-multisite/assets/css/cookieblocker.min.css?ver=1790679902\nhttps://www.sweco.no/wp-content/themes/sweco/node_modules/choices.js/public/assets/styles/choices.min.css?ver=6.9.9\nhttps://www.sweco.no/wp-content/uploads/sites/13/complianz/css/banner-1-optin.css?ver=1790679927\nhttps://www.sweco.no/wp-json/\nhttps://www.sweco.no/wp-json/wp/v2/pages/6\nhttps://www.sweco.no/wp-content/uploads/sites/13/2021/06/home-header-01-1680x800.jpg\nhttps://www.sweco.no/wp-content/themes/sweco/dist/webfonts/SwecoSans-Bold.woff2\nhttps://www.sweco.no/wp-content/themes/sweco/dist/webfonts/SwecoSans-BoldItalic.woff2\nhttps://www.sweco.no/wp-content/themes/sweco/dist/webfonts/SwecoSans-Italic.woff2\nhttps://www.sweco.no/wp-content/themes/sweco/dist/webfonts/SwecoSans-Medium.woff2\nhttps://www.sweco.no/wp-content/themes/sweco/dist/webfonts/SwecoSans-MediumItalic.woff2\nhttps://www.sweco.no/wp-content/themes/sweco/dist/webfonts/SwecoSans-Regular.woff2\nhttps://www.sweco.no/wp-content/uploads/sites/13/2021/01/cropped-favicon-32x32.png\nhttps://www.sweco.no/wp-content/uploads/sites/13/2021/01/cropped-favicon-192x192.png\nhttps://www.sweco.no/wp-content/uploads/sites/13/2021/01/cropped-favicon-180x180.png\nhttps://www.sweco.no/vare-tjenester/\nhttps://www.sweco.no/vare-tjenester/bygninger/prosjekt-og-byggeledelse/\nhttps://www.sweco.no/vare-tjenester/bygninger/\nhttps://www.sweco.no/vare-tjenester/bygninger/akustikk-i-bygninger/\nhttps://www.sweco.no/sweco-architects/\nhttps://www.sweco.no/vare-tjenester/bygninger/bim-i-bygninger/\nhttps://www.sweco.no/vare-tjenester/bygninger/baerekraftige-bygg/\nhttps://www.sweco.no/vare-tjenester/bygninger/brannradgivning/\nhttps://www.sweco.no/vare-tjenester/bygninger/tekniske-fag/\nhttps://www.sweco.no/vare-tjenester/bygninger/konstruksjoner/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/elektrifisering-og-energiteknologi/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/fornybar-energi/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/industri/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/kraftnett/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/mat-og-medisiner/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/miljo/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/mineraler-og-ressurser/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/strategisk-radgivning/\nhttps://www.sweco.no/vare-tjenester/energi-miljo-industri/vannkraft/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/spor-og-bane/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/bim-i-samferdselsprosjekter/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/akustikk-i-samferdselsprosjekter/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/arealplanlegging/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/bruer/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/flom-og-skred/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/geo/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/landskapsarkitektur/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/tunnel/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/vann-avlop-og-overvann/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/vei-og-trafikk/\nhttps://www.sweco.no/vare-tjenester/infrastruktur/havner/\nhttps://www.sweco.no/sweco-architects/byutvikling/\nhttps://www.sweco.no/sweco-architects/interiorarkitektur/\nhttps://www.sweco.no/sweco-architects/bolig/\nhttps://www.sweco.no/sweco-architects/naeringsbygg/\nhttps://www.sweco.no/sweco-architects/transformasjon/\nhttps://www.sweco.no/sweco-architects/landskap/\nhttps://www.sweco.no/sweco-architects/undervisning/\nhttps://www.sweco.no/sweco-architects/3d-visualisering/\nhttps://www.sweco.no/projects/\nhttps://www.sweco.no/aktuelt/\nhttps://www.sweco.no/aktuelt/category/nyheter/\nhttps://www.sweco.no/aktuelt/category/kunngjoringer/\nhttps://www.sweco.no/nyheter/urban-insight/\nhttps://www.sweco.no/baerekraft2/\nhttps://www.sweco.no/kontakt-oss/\nhttps://www.sweco.no/karrieresider/\nhttps://www.swecogroup.com/\nhttps://www.swecobelgium.be/\nhttps://www.swecobelgium.be/fr/\nhttps://www.swecobelgium.be/en/\nhttps://www.sweco.dk/\nhttps://www.sweco.dk/en/\nhttps://www.sweco.ee/\nhttps://www.sweco.fi/\nhttps://www.sweco.fi/en/\nhttps://www.swecofrance.fr/\nhttps://www.sweco-gmbh.de/\nhttps://www.sweco.in/\nhttps://www.sweco.ie/\nhttps://www.sweco.lt/\nhttps://sweco.lu/\nhttps://www.sweco.lu/en/\nhttps://www.sweco.lu/\nhttps://www.sweco.lu/de/\nhttps://www.sweco.lu/lu/\nhttps://www.sweco.nl/\nhttps://www.sweco.pl/\nhttps://www.sweco.se/\nhttps://www.sweco.co.uk/\nhttps://www.swecogroup.com/partner-programme/\nhttps://www.sweco.no/om-oss/\nhttps://www.sweco.no/ledergruppe-sweco-norge/\nhttps://www.sweco.no/swecos-regionledere/\nhttps://www.sweco.no/about-us/\nhttps://markedsplassen.sweco.no/\nhttps://www.sweco.no/karrieresider/ledige-stillinger/\nhttps://www.sweco.no/aktuelt/kunngjoringer/kunngjoring-igangsetting-av-reguleringsarbeid-med-konsekvensutredning/\nhttps://www.sweco.no/aktuelt/events/frokostmote-om-baerekraft-i-infrastrukturprosjekter/\nhttps://www.sweco.no/aktuelt/kunngjoringer/melding-om-igangsetting-av-reguleringsarbeid-for-steinkjer-kornsilo-utvidelse/\nhttps://www.sweco.no/baerekraft/\nhttps://www.swecourbaninsight.com/\nhttps://www.sweco.no/karriere/mot-vare-ansatte/\nhttps://www.sweco.no/samtykkeerklaeringen/\nhttps://www.sweco.no/%22/samtykkeerklaeringen/%22%3Esamtykkeerkl%C3%A6ringen%3C/a%3E'\nhttps://www.sweco.no/nyheter/\nhttps://www.facebook.com/SwecoNorge/\nhttps://www.instagram.com/sweco_norge/\nhttps://www.linkedin.com/company/sweco/\nhttps://twitter.com/SwecoNorge\nhttps://www.sweco.no/personvernerklaering/\nhttps://www.sweco.no/cookie-policy/\nhttps://cookiedatabase.org/tcf/purposes/\nhttps://schema.org/\nhttps://www.sweco.no/wp-content/uploads/sites/13/2023/10/sweco-logotype.png\nhttps://www.sweco.no/wp-content/uploads/sites/13/2025/11/Sweco-Urtegata.Photo-Einar-Aslaksen-05226-33354280.jpg",
+    "extraction_method": "public-html-text-and-links/v3",
+    "transport": {
+      "raw_sha256": "fb6ac0c140e6a8db4bfcd62ae27b86d985ec984eb345c64c24cae6ea463f96d9",
+      "retrieved_at": "2026-10-17T03:12:09.394Z",
+      "final_url": "https://www.sweco.no/",
+      "redirect_chain": []
+    },
+    "content_sha256": "f9d3139e9e33e9aa08a7a93567cc3b25be3cbd24feb039ede7de21abc5c31884",
+    "retrieved_at": "2026-10-17T03:12:09.394Z",
+    "id": "6020d9f26ee048c2669a6e73e1176d53256fb48b8c2334337fa0dca19a202c96"
+  },
+  "published_value": "https://www.linkedin.com/company/sweco",
+  "proposal": {
+    "field": "company_owned_profiles",
+    "value": "https://www.linkedin.com/company/sweco",
+    "quote": "//www.sweco.no/nyheter/\nhttps://www.facebook.com/SwecoNorge/\nhttps://www.instagram.com/sweco_norge/\nhttps://www.linkedin.com/company/sweco/\nhttps://twitter.com/SwecoNorge\nhttps://www.sweco.no/personvernerklaering/\nhttps",
+    "snapshot_id": "6020d9f26ee048c2669a6e73e1176d53256fb48b8c2334337fa0dca19a202c96",
+    "effective_date": null
+  }
+}

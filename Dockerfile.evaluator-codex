@@ -1,0 +1,3 @@
+# Optional local/subscription test runtime; the evaluator API image needs no Codex login.
+FROM signalpost-evaluator:clean
+RUN npm install --global --no-audit --no-fund @openai/codex@0.162.1

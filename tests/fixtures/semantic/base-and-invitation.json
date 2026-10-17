@@ -1,0 +1,196 @@
+[
+  {
+    "org": "932731312",
+    "identity": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/enheter/932731312"
+        }
+      },
+      "aktivitet": [
+        "Resirkulering av brukte dekk fra kjøretøy for produksjon av produkter",
+        "og løsninger."
+      ],
+      "erIKonsern": false,
+      "forretningsadresse": {
+        "adresse": [
+          "Birkelandsvegen 84"
+        ],
+        "kommune": "SAUDA",
+        "kommunenummer": "1135",
+        "land": "Norge",
+        "landkode": "NO",
+        "postnummer": "4200",
+        "poststed": "SAUDA"
+      },
+      "fravalgRevisjonBeslutningsDato": "2023-12-10",
+      "fravalgRevisjonDato": "2024-01-08",
+      "harRegistrertAntallAnsatte": false,
+      "historiskeNavn": [],
+      "institusjonellSektorkode": {
+        "beskrivelse": "Private aksjeselskaper mv.",
+        "kode": "2100"
+      },
+      "kapital": {
+        "antallAksjer": 30,
+        "belop": 30000,
+        "innfortDato": "2024-01-08",
+        "type": "Aksjekapital",
+        "valuta": "NOK"
+      },
+      "konkurs": false,
+      "maalform": "Bokmål",
+      "naeringskode1": {
+        "beskrivelse": "Materialgjenvinning",
+        "kode": "38.210"
+      },
+      "navn": "ECO FLEX AS",
+      "organisasjonsform": {
+        "_links": {
+          "self": {
+            "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+          }
+        },
+        "beskrivelse": "Aksjeselskap",
+        "kode": "AS"
+      },
+      "organisasjonsnummer": "932731312",
+      "paategninger": [],
+      "registreringsdatoEnhetsregisteret": "2024-01-08",
+      "registreringsdatoForetaksregisteret": "2024-01-08",
+      "registrertIForetaksregisteret": true,
+      "registrertIFrivillighetsregisteret": false,
+      "registrertIMvaregisteret": false,
+      "registrertIPartiregisteret": false,
+      "registrertIStiftelsesregisteret": false,
+      "respons_klasse": "Enhet",
+      "sisteInnsendteAarsregnskap": "2025",
+      "stiftelsesdato": "2023-12-10",
+      "underAvvikling": false,
+      "underTvangsavviklingEllerTvangsopplosning": false,
+      "vedtektsdato": "2023-12-10",
+      "vedtektsfestetFormaal": [
+        "Innsamling og anskaffe, resirkulere og utvikle produkter og løsninger",
+        "med brukte dekk som råvare."
+      ]
+    },
+    "source": {
+      "organisation_number": "932731312",
+      "run_id": "architecture-fresh-1000-1792176223066",
+      "source_url": "https://eco-flex.no/om-oss/",
+      "source_class": "company_owned",
+      "text": "Om oss - Ecoflex\nForside\nOm oss\nProdukter\nStøyvegg Eco Wall\nStøyvegg HD Eco Wall\nKontakt\nDokumentasjon og Brosjyrer\nVelg Side\nEco Flex Norge\nOm oss\nEco Flex As er et norsk selskap som resirkulerer dekk for gjenbruk til nye produkter for det nordiske markedet og Europa. Vi samarbeider tett med Eco Flex Inc. i Canada som har patentert teknologi og 30 års erfaring med teknologien.\nVi er etablert i Sauda Kommune, Rogaland.\nDaglig leder: Asle Rafdal, tlf. 900 56 822\nBirkelandsvegen 84\n4200 Sauda\nNorge\nTelefon: +47 900 56 822\nEpost: fixture-contact-35@eco-flex.no\n\n[Structured data from this page]\n{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/eco-flex.no\\/om-oss\\/\",\"url\":\"https:\\/\\/eco-flex.no\\/om-oss\\/\",\"name\":\"Om oss - Ecoflex\",\"isPartOf\":{\"@id\":\"https:\\/\\/eco-flex.no\\/#website\"},\"datePublished\":\"2023-01-05T13:00:25+00:00\",\"dateModified\":\"2026-05-21T08:43:01+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/eco-flex.no\\/om-oss\\/#breadcrumb\"},\"inLanguage\":\"nb-NO\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/eco-flex.no\\/om-oss\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/eco-flex.no\\/om-oss\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/eco-flex.no\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Om oss\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/eco-flex.no\\/#website\",\"url\":\"https:\\/\\/eco-flex.no\\/\",\"name\":\"Ecoflex\",\"description\":\"Just another WordPress site\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/eco-flex.no\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nb-NO\"}]}\n\n[Links extracted from this page]\nhttps://eco-flex.no/xmlrpc.php\nhttps://fonts.gstatic.com/\nhttps://eco-flex.no/om-oss/\nhttps://eco-flex.no/feed/\nhttps://eco-flex.no/comments/feed/\nhttps://eco-flex.no/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feco-flex.no%2Fom-oss%2F\nhttps://eco-flex.no/wp-json/oembed/1.0/embed?url=https%3A%2F%2Feco-flex.no%2Fom-oss%2F&format=xml\nhttps://eco-flex.no/wp-content/plugins/dp-advanced-blurbs/public/css/font-awesome.min.css?ver=2.0.3\nhttps://eco-flex.no/wp-content/plugins/dp-advanced-blurbs/styles/style.min.css?ver=2.0.3\nhttps://eco-flex.no/wp-content/plugins/dp-portfolio-posts-pro/styles/style.min.css?ver=4.2.2\nhttps://eco-flex.no/wp-content/themes/Divi-child/css/main.css?ver=202112210955\nhttps://eco-flex.no/wp-content/themes/Divi-child/style.css?ver=5.10.1\nhttps://eco-flex.no/wp-json/\nhttps://eco-flex.no/wp-json/wp/v2/pages/134\nhttps://eco-flex.no/xmlrpc.php?rsd\nhttps://eco-flex.no/?p=134\nhttps://eco-flex.no/\nhttps://eco-flex.no/stoyvegg-eco-wall/\nhttps://eco-flex.no/stoyvegg-hd-eco-wall/\nhttps://eco-flex.no/kontakt/\nhttps://eco-flex.no/dokumentasjon-og-brosjyrer/\nhttps://schema.org/\nhttps://eco-flex.no/?s={search_term_string}",
+      "extraction_method": "public-html-text-and-links/v3",
+      "transport": {
+        "raw_sha256": "139132569593e7c111720e4988ffd431c1b774455d3a17fadfc352bee3d3be3d",
+        "retrieved_at": "2026-10-17T03:07:44.434Z",
+        "final_url": "https://eco-flex.no/om-oss/",
+        "redirect_chain": []
+      },
+      "content_sha256": "f2dd15679b938edd886ad19d2a5cdad8bef8432f8ce64ccaa713ed910a7115ef",
+      "retrieved_at": "2026-10-17T03:07:44.434Z",
+      "id": "23d2e4b0753698968f1657f8b32491afbec705b40452c0336646e2a4d677ad73"
+    }
+  },
+  {
+    "org": "911703076",
+    "identity": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/enheter/911703076"
+        }
+      },
+      "aktivitet": [
+        "Utvikling, salg og service av industriprodukter."
+      ],
+      "antallAnsatte": 16,
+      "erIKonsern": false,
+      "forretningsadresse": {
+        "adresse": [
+          "Grandevegen 13"
+        ],
+        "kommune": "STRYN",
+        "kommunenummer": "4651",
+        "land": "Norge",
+        "landkode": "NO",
+        "postnummer": "6783",
+        "poststed": "STRYN"
+      },
+      "harRegistrertAntallAnsatte": true,
+      "historiskeNavn": [
+        {
+          "fraDato": "2013-03-14 20:32:48",
+          "navn": "INNOVAGASS AS",
+          "tilDato": "2014-04-01 09:24:15"
+        }
+      ],
+      "institusjonellSektorkode": {
+        "beskrivelse": "Private aksjeselskaper mv.",
+        "kode": "2100"
+      },
+      "kapital": {
+        "antallAksjer": 4920,
+        "belop": 4920000,
+        "innfortDato": "2023-08-16",
+        "type": "Aksjekapital",
+        "valuta": "NOK"
+      },
+      "konkurs": false,
+      "maalform": "Bokmål",
+      "naeringskode1": {
+        "beskrivelse": "Industri-, produkt- og motedesignvirksomhet",
+        "kode": "74.110"
+      },
+      "navn": "VENDANOR AS",
+      "organisasjonsform": {
+        "_links": {
+          "self": {
+            "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+          }
+        },
+        "beskrivelse": "Aksjeselskap",
+        "kode": "AS"
+      },
+      "organisasjonsnummer": "911703076",
+      "paategninger": [],
+      "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-09-14",
+      "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-09-10",
+      "registreringsdatoEnhetsregisteret": "2013-03-14",
+      "registreringsdatoForetaksregisteret": "2013-03-14",
+      "registreringsdatoMerverdiavgiftsregisteret": "2013-05-01",
+      "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2013-07-10",
+      "registrertIForetaksregisteret": true,
+      "registrertIFrivillighetsregisteret": false,
+      "registrertIMvaregisteret": true,
+      "registrertIPartiregisteret": false,
+      "registrertIStiftelsesregisteret": false,
+      "respons_klasse": "Enhet",
+      "sisteInnsendteAarsregnskap": "2025",
+      "stiftelsesdato": "2013-03-07",
+      "underAvvikling": false,
+      "underTvangsavviklingEllerTvangsopplosning": false,
+      "vedtektsdato": "2017-06-23",
+      "vedtektsfestetFormaal": [
+        "Utvikling, salg og service, samt deltakelse i andre selskap med",
+        "lignende formål."
+      ]
+    },
+    "source": {
+      "organisation_number": "911703076",
+      "run_id": "architecture-fresh-1000-1792176223066",
+      "source_url": "https://vendanor.com/no/karriere/apen-soknad/",
+      "source_class": "company_owned",
+      "text": "Åpen søknad – Vendanor Skip to content\nPropanautomat\nSpylervæskeautomat\nOm Vendanor\nKontakt\nNorsk\nEnglish Norsk\nDeutsch\nProdukter\nPropanautomat\nSpylervæskeautomat\nTjenester\nVendanor Connect\nVendanor Care\nVendanor\nOm Vendanor\nKarriere\nAktuelt\nKontakt\nNettjenester\nSluttkundeportal my.vendanor.com\nLogg inn connect.vendanor.com\nDriftsstatus status.vendanor.com\n+47 21 52 53 54 fixture-contact-36@vendanor.com Grandevegen 13,\n6783 STRYN, Norway\n← Tilbake til Karriere Åpen søknad\nVennligst send oss en åpen søknad hvis du mener at Vendanor kan være den rette arbeidsgiveren for deg. Fortell oss også hvorfor du passer godt inn.\nSend søknad til\nfixture-contact-37@vendanor.com\n+47 21 52 53 54 fixture-contact-36@vendanor.com Grandevegen 13, 6783 STRYN, Norway Kontakt\nLøsninger\nPropanautomat\nSpylervæskeautomat\nVendanor Connect\nVendanor Care\nVendanor\nOm Vendanor\nKarriere\nAktuelt\nLinkedIn\nNettjenester\nSluttkundeportal\nLogg inn\nDriftsstatus\n© 2026 Vendanor AS Org.nr. NO-911703076MVA Personvernerklæring\nMade in Norway\n\n[Page metadata description]\nSend oss en åpen søknad — vi er alltid på jakt etter flinke folk.\n\n[Structured data from this page]\n{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Vendanor\",\"legalName\":\"Vendanor AS\",\"url\":\"https://vendanor.com\",\"logo\":\"https://vendanor.com/assets/vendanor-dark.DFCwpVyA.svg\",\"sameAs\":[\"https://www.linkedin.com/company/vendanor-as/\"],\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Grandevegen 13\",\"postalCode\":\"6783\",\"addressLocality\":\"Stryn\",\"addressCountry\":\"NO\"},\"contactPoint\":{\"@type\":\"ContactPoint\",\"contactType\":\"customer service\",\"telephone\":\"+47 21 52 53 54\",\"email\":\"fixture-contact-36@vendanor.com\",\"availableLanguage\":[\"en\",\"no\",\"de\"]}}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://vendanor.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Åpen søknad\",\"item\":\"https://vendanor.com/no/karriere/apen-soknad/\"}]}\n\n[Links extracted from this page]\nhttps://vendanor.com/no/karriere/apen-soknad/\nhttps://vendanor.com/career/open-application/\nhttps://vendanor.com/de/karriere/initiativbewerbung/\nhttps://vendanor.com/favicon.ico\nhttps://vendanor.com/apple-touch-icon.png\nhttps://umami.vendanor.com/\nhttps://connect.vendanor.com/\nhttps://vendanor.com/no/\nhttps://vendanor.com/no/propanautomat/\nhttps://vendanor.com/no/spylervaeskeautomat/\nhttps://vendanor.com/no/om/\nhttps://vendanor.com/no/kontakt/\nhttps://vendanor.com/no/connect/\nhttps://vendanor.com/no/care/\nhttps://vendanor.com/no/karriere/\nhttps://vendanor.com/no/aktuelt/\nhttps://my.vendanor.com/\nhttps://status.vendanor.com/\nhttps://maps.google.com/?q=Grandevegen+13,+6783+STRYN,+Norway\nhttps://vendanor.com/mapnav/?q=Vendanor\nhttps://www.linkedin.com/company/vendanor-as/\nhttps://docs.vendanor.com/en/legal/privacy/\nhttps://schema.org/\nhttps://vendanor.com/\nhttps://vendanor.com/assets/vendanor-dark.DFCwpVyA.svg",
+      "extraction_method": "public-html-text-and-links/v3",
+      "transport": {
+        "raw_sha256": "dbff9291bfd9de1045c7d4ad88ab05812ced487d05729dae77affbe50e167476",
+        "retrieved_at": "2026-10-17T03:25:10.716Z",
+        "final_url": "https://vendanor.com/no/karriere/apen-soknad/",
+        "redirect_chain": []
+      },
+      "content_sha256": "6ccf6496f4378e0750df86ce68ab6c2612739283057ad31405cced7823a9228a",
+      "retrieved_at": "2026-10-17T03:25:10.716Z",
+      "id": "0110ef53dec207e852afafc5fb85c91f28251257b6ed39c19c2b3970b043cb80"
+    }
+  }
+]

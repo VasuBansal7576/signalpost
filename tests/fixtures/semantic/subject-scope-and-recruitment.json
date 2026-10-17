@@ -1,0 +1,283 @@
+[
+  {
+    "org": "912973808",
+    "identity": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/enheter/912973808"
+        }
+      },
+      "aktivitet": [
+        "Medisinsk klinikk basert på medisinsk hudforbedring og",
+        "skjønnhetspleie, sykepleietjenester, annen ordinær skjønnhetspleie,",
+        "laser- og lysbehandlinger, varesalg og andre behandlinger som naturlig",
+        "faller inn under dette."
+      ],
+      "erIKonsern": false,
+      "forretningsadresse": {
+        "adresse": [
+          "Drotningsvikveien 132"
+        ],
+        "kommune": "BERGEN",
+        "kommunenummer": "4601",
+        "land": "Norge",
+        "landkode": "NO",
+        "postnummer": "5179",
+        "poststed": "GODVIK"
+      },
+      "fravalgRevisjonDato": "2013-12-19",
+      "harRegistrertAntallAnsatte": true,
+      "historiskeNavn": [],
+      "institusjonellSektorkode": {
+        "beskrivelse": "Private aksjeselskaper mv.",
+        "kode": "2100"
+      },
+      "kapital": {
+        "antallAksjer": 100,
+        "belop": 40000,
+        "innfortDato": "2013-12-19",
+        "type": "Aksjekapital",
+        "valuta": "NOK"
+      },
+      "konkurs": false,
+      "maalform": "Bokmål",
+      "naeringskode1": {
+        "beskrivelse": "Andre helsetjenester ellers",
+        "kode": "86.993"
+      },
+      "navn": "GAWE MEDISINSKE KLINIKK AS",
+      "organisasjonsform": {
+        "_links": {
+          "self": {
+            "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+          }
+        },
+        "beskrivelse": "Aksjeselskap",
+        "kode": "AS"
+      },
+      "organisasjonsnummer": "912973808",
+      "paategninger": [],
+      "registreringsdatoAntallAnsatteEnhetsregisteret": "2020-11-11",
+      "registreringsdatoAntallAnsatteNAVAaregisteret": "2020-11-10",
+      "registreringsdatoEnhetsregisteret": "2013-12-19",
+      "registreringsdatoForetaksregisteret": "2013-12-19",
+      "registreringsdatoMerverdiavgiftsregisteret": "2014-01-01",
+      "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2014-05-21",
+      "registrertIForetaksregisteret": true,
+      "registrertIFrivillighetsregisteret": false,
+      "registrertIMvaregisteret": true,
+      "registrertIPartiregisteret": false,
+      "registrertIStiftelsesregisteret": false,
+      "respons_klasse": "Enhet",
+      "sisteInnsendteAarsregnskap": "2025",
+      "stiftelsesdato": "2013-11-20",
+      "underAvvikling": false,
+      "underTvangsavviklingEllerTvangsopplosning": false,
+      "vedtektsdato": "2017-03-01",
+      "vedtektsfestetFormaal": [
+        "Medisinsk klinikk basert på medisinsk hudforbedring og",
+        "skjønnhetspleie, sykepleietjenester, annen ordinær skjønnhetspleie,",
+        "laser- og lysbehandlinger, varesalg og andre behandlinger som naturlig",
+        "faller inn under dette. Dessuten å inngå samarbeid med andre personer",
+        "og virksomheter, herunder foreta investeringer i andre selskaper."
+      ]
+    },
+    "source": {
+      "source_url": "https://novelaklinikken.no/klinikk/gawe-medisinske-klinikk/",
+      "source_class": "external",
+      "text": "Gawe medisinske klinikk - Novelaklinikken\nBehandlinger Hudpleie Hudpleie Microtox Hudsliping Hårfjerning med laser Fjerning av blodkar Pigmentfjerning Fjerning av hudutvekst Laserfjerning av tatoveringer ZO Skin Health Green Peel Rynkebehandling\nFigur Smartlipo for menn Smartlipo for kvinner Cellulitt Figurforming\nAnsikt Trådløft Tunge øyelokk – CO2 laser Hudfornying med fraksjonert CO2 laser Filler Skinboosters Permanent makeup Microtox Hårfjerning med laser\nMedisinsk behandling Stamcellebehandling for artrose Svettebehandling Krokfinger Migrenebehandling\nPriser Priser i Bygdøy Allé\nPriser i Drammen\nPriser i Kongsberg\nPriser i Kristiansand\nPriser i Tønsberg\nPriser i Trondheim\nPriser i Fredrikstad\nOm Novelaklinikken Våre klinikker Bygdøy Allé Drammen Elverum Fredrikstad Kongsberg Kristiansand Trondheim Tønsberg\nVåre satelitter Essens Dagspa Gawe medisinske klinikk Innlandet Hudklinikk\nOm oss\nKundeerfaringer\nKontakt\nTimebestilling\nBehandlinger\nHudpleie\nHudpleie\nMicrotox\nHudsliping\nHårfjerning med laser\nFjerning av blodkar\nPigmentfjerning\nFjerning av hudutvekst\nLaserfjerning av tatoveringer\nZO Skin Health\nGreen Peel\nRynkebehandling\nFigur\nSmartlipo for menn\nSmartlipo for kvinner\nCellulitt\nFigurforming\nAnsikt\nTrådløft\nTunge øyelokk – CO2 laser\nHudfornying med fraksjonert CO2 laser\nFiller\nSkinboosters\nPermanent makeup\nMicrotox\nHårfjerning med laser\nMedisinsk behandling\nStamcellebehandling for artrose\nSvettebehandling\nKrokfinger\nMigrenebehandling\nPriser\nPriser i Bygdøy Allé\nPriser i Drammen\nPriser i Kongsberg\nPriser i Kristiansand\nPriser i Tønsberg\nPriser i Trondheim\nPriser i Fredrikstad\nOm Novelaklinikken\nVåre klinikker\nBygdøy Allé\nDrammen\nElverum\nFredrikstad\nKongsberg\nKristiansand\nTrondheim\nTønsberg\nVåre satelitter\nEssens Dagspa\nGawe medisinske klinikk\nInnlandet Hudklinikk\nOm oss\nKundeerfaringer\nKontakt\nTimebestilling Bestill gratis konsultasjon\nBook konsultasjon\nAvdeling * Bygdøy Allé Drammen Elverum Fredrikstad Gjøvik Kongsberg Kristiansand Trondheim Tønsberg\nVelg behandling * CO2 laser Smartlipo Øvrige behandlinger\nJeg gir herved samtykke til å bli kontaktet via e-post og telefon.\nSe vår personvernerklæring.\nBestill en gratis konsultasjon hos Novelaklinikken i dag!\nEr du usikker på hvilken behandling som passer best for deg? Ønsker du mer informasjon om våre ulike behandlingstilbud, som inkluderer Smartlipo eller CO2 Laser? Vi på Novelaklinikken forstår at valg av behandling kan være vanskelig, og vi er her for å hjelpe deg.\nVed å bestille en gratis og uforpliktende konsultasjon får du:\nEn gjennomgang av de forskjellige behandlingsalternativene vi tilbyr, inkludert avanserte teknikker som Smartlipo og CO2 Laser, skreddersydd til dine behov.\nVeiledning fra våre erfarne leger som sørger for at du får all nødvendig informasjon til å ta et informert valg.\nSvar på alle dine spørsmål om våre behandlinger i en behagelig og trygg setting.\nIkke vent med å ta det første skrittet mot å utforske hvordan våre behandlinger kan støtte din velvære og livskvalitet.\nÅpningstider\nDrotningsvikveien 132 , 5179 Godvik\n+47 48 50 30 10\nfixture-contact-53@gawe.no\nGawe medisinske klinikk\nGawe medisinske klinikk tilbyr medisinske og kosmetiske behandlinger. Vi er en sertifisert Restylaneklinikk, og er spesialister i injeksjoner med Restylane og Btx. Vi tilbyr også laserbehandlinger mot sprengte blodkar, permanent hårfjerning, strekkmerker, fjerning av føflekker og hudutvekster, samt hudforyngende laserbehandlinger. Videre tilbyr vi Lipomassasje som er en bindevevsmassasje som er lymfedrerende og løser opp i stive muskler og ledd. Vi tilbyr også medisinsk hudpleie i form av kremer og peelinger.\nEr du usikker på hvilken behandling som er riktig for deg? Bestill en gratis konsultasjon i dag.\nGratis konsultasjon\nVåre klinikker\nNovelaklinikken Bygdøy Allé Bygdøy Allé 51A, 0256 Oslo\nTlf: 21 64 06 00\nfixture-contact-54@novelaklinikken.no\nLes mer\nNovelaklinikken Drammen Guldlisten 35, 3048 Drammen\nTlf: 32 82 86 82\nfixture-contact-55@novelaklinikken.no\nLes mer\nNovelaklinikken Elverum Storgata 15, 2408 Elverum\nTlf: 48 12 55 35\nfixture-contact-56@novelaklinikken.no\nLes mer\nNovelaklinikken Kongsberg Dyrmyrgata 14 C, 3611 Kongsberg\nTlf: 416 31 466\nfixture-contact-57@novelaklinikken.no\nLes mer\nNovelaklinikken Kristiansand Markens gate 42, 4611 Kristiansand\nTlf: 38 01 44 00\nfixture-contact-58@novelaklinikken.no\nLes mer\nNovelaklinikken Trondheim Fjordgata 31, 7010 Trondheim\nTlf: 45 2222 84\nfixture-contact-59@novelaklinikken.no\nLes mer\nNovelaklinikken Tønsberg Baglergaten 1, 3110 Tønsberg\nTlf: 48 40 45 45\nfixture-contact-60@novelaklinikken.no\nLes mer\nNovelaklinikken Fredrikstad Jens Wilhelmsens gate 7, 1671 Kråkerøy\nTlf: 400 00 898\nfixture-contact-61@novelaklinikken.no\nLes mer\nVåre andre satelitter\nEssens Dagspa Storgata 85, 9008 Tromsø\nTlf: +47 77 75 34 00\nfixture-contact-62@essensdagspa.no\nLes mer\nInkAway Øvre Torvgate 22, 2815 Gjøvik\nTlf: +47 61 17 34 14\nfixture-contact-63@inkaway.no\nLes mer\nBygdøy Alle 51A, 0265 Oslo\nTel: 21 64 06 00\nEpost: fixture-contact-64@novelaklinikken.no\nNovelaklinikken\nOm oss Behandlinger Priser Kontakt Kundeerfaring Klinikker\nVåre klinikker\nBygdøy Allé Drammen Elverum Fredrikstad Kongsberg Kristiansand Trondheim Tønsberg\nDesign og kode:\nMediebyrået Enklere Valg\nTimebestilling\nDesign og kode:\nMediebyrået Enklere Valg Personvern og cookies Tilpass samtykkeinstillinger\nPersonvern og cookies Tilpass samtykkeinstillinger\n\n[Page metadata description]\nVi tilbyr det siste innen medisinske og kosmetiske behandlinger\n\n[Structured data from this page]\n{\"@context\":\"https://schema.org\",\"@type\":\"Dentist\",\"name\":\"Gawe medisinske klinikk\",\"description\":\"\",\"telephone\":\"+47 48 50 30 10\",\"email\":\"fixture-contact-53@gawe.no\",\"aboutUs\":\"<h1 id=\\\"h-arsaker-til-munntorrhet\\\" class=\\\"wp-block-heading has-large-font-size\\\">Gawe medisinske klinikk</h1>\\r\\n<p><!-- /wp:spacer --></p>\\r\\n<p><strong>Gawe medisinske klinikk</strong> tilbyr medisinske og kosmetiske behandlinger. Vi er en sertifisert Restylaneklinikk, og er spesialister i injeksjoner med Restylane og Btx. Vi tilbyr også laserbehandlinger mot sprengte blodkar, permanent hårfjerning, strekkmerker, fjerning av føflekker og hudutvekster, samt hudforyngende laserbehandlinger. Videre tilbyr vi Lipomassasje som er en bindevevsmassasje som er lymfedrerende og løser opp i stive muskler og ledd. Vi tilbyr også medisinsk hudpleie i form av kremer og peelinger.</p>\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Godvik\",\"postalCode\":\"5179\",\"streetAddress\":\"Drotningsvikveien 132\"},\"openingHoursSpecification\":[]}\n{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"listItem\",\"position\":1,\"name\":\"Hjem\",\"item\":\"https://novelaklinikken.no/\"},{\"@type\":\"listItem\",\"position\":2,\"name\":\"Klinikker\",\"item\":\"https://novelaklinikken.nohttps://admin.novelaklinikken.no/klinikk/\"},{\"@type\":\"listItem\",\"position\":3,\"name\":\"Gawe medisinske klinikk\",\"item\":\"https://novelaklinikken.no/klinikk/gawe-medisinske-klinikk/\"}]}\n\n[Links extracted from this page]\nhttps://novelaklinikken.no/klinikk/gawe-medisinske-klinikk/\nhttps://novelaklinikken.no/sitemap-index.xml\nhttps://novelaklinikken.no/favicon-32x32.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/manifest.webmanifest\nhttps://novelaklinikken.no/icons/icon-48x48.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-72x72.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-96x96.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-144x144.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-192x192.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-256x256.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-384x384.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/icons/icon-512x512.png?v=0857e36a1b8a12a699a3633f9a8ec45c\nhttps://novelaklinikken.no/\nhttps://novelaklinikken.no/behandlinger/hud/\nhttps://novelaklinikken.no/behandlinger/hud/hudterapi/\nhttps://novelaklinikken.no/behandlinger/hud/microtox/\nhttps://novelaklinikken.no/behandlinger/hud/hudsliping/\nhttps://novelaklinikken.no/behandlinger/laser-harfjerning/harfjerning-med-laser/\nhttps://novelaklinikken.no/behandlinger/hud/fjerning-av-blodkar/\nhttps://novelaklinikken.no/behandlinger/hud/pigmentfjerning/\nhttps://novelaklinikken.no/behandlinger/hud/fjerning-av-hudutvekst/\nhttps://novelaklinikken.no/behandlinger/hud/laserfjerning-av-tatoveringer/\nhttps://novelaklinikken.no/behandlinger/hud/zo-skin-health/\nhttps://novelaklinikken.no/behandlinger/hud/green-peel/\nhttps://novelaklinikken.no/behandlinger/rynkebehandling/\nhttps://novelaklinikken.no/behandlinger/figur/\nhttps://novelaklinikken.no/behandlinger/smartlipo/smartlipo-menn/\nhttps://novelaklinikken.no/behandlinger/smartlipo/smartlipo-kvinner/\nhttps://novelaklinikken.no/behandlinger/figur/cellulitt/\nhttps://novelaklinikken.no/behandlinger/eximia/figurforming/\nhttps://novelaklinikken.no/behandlinger/ansikt/\nhttps://novelaklinikken.no/behandlinger/vipper-og-bryn/tradloft/\nhttps://novelaklinikken.no/behandlinger/co2-laser/tunge-oyelokk-co2-laser/\nhttps://novelaklinikken.no/behandlinger/co2-laser/hudfornying-med-laser/\nhttps://novelaklinikken.no/behandlinger/filler-restylane/filler/\nhttps://novelaklinikken.no/behandlinger/ansikt/skinboosters/\nhttps://novelaklinikken.no/behandlinger/ansikt/permanent-makeup/\nhttps://novelaklinikken.no/behandlinger/ansikt/harfjerning-med-laser/\nhttps://novelaklinikken.no/behandlinger/medisinsk-behandling/\nhttps://novelaklinikken.no/behandlinger/ortopedi/stamcellebehandling-for-artrose/\nhttps://novelaklinikken.no/behandlinger/medisinsk-behandling/svettebehandling/\nhttps://novelaklinikken.no/behandlinger/ortopedi/krokfinger/\nhttps://novelaklinikken.no/behandlinger/medisinsk-behandling/migrenebehandling/\nhttps://novelaklinikken.no/priser/priser-i-bygdoy-alle/\nhttps://novelaklinikken.no/priser/priser-i-drammen/\nhttps://novelaklinikken.no/priser/priser-i-kongsberg/\nhttps://novelaklinikken.no/priser/priser-i-kristiansand/\nhttps://novelaklinikken.no/priser/priser-i-tonsberg/\nhttps://novelaklinikken.no/priser/priser-i-trondheim/\nhttps://novelaklinikken.no/priser/priser-i-fredrikstad/\nhttps://novelaklinikken.no/klinikker/\nhttps://novelaklinikken.no/klinikk/bygdoy-alle/\nhttps://novelaklinikken.no/klinikk/drammen/\nhttps://novelaklinikken.no/?post_type=clinic&p=25\nhttps://novelaklinikken.no/klinikk/fredrikstad/\nhttps://novelaklinikken.no/klinikk/kongsberg/\nhttps://novelaklinikken.no/klinikk/kristiansand/\nhttps://novelaklinikken.no/klinikk/trondheim/\nhttps://novelaklinikken.no/klinikk/tonsberg/\nhttps://novelaklinikken.no/?post_type=clinic&p=1076\nhttps://novelaklinikken.no/klinikk/innlandethudklinikk/\nhttps://novelaklinikken.no/om-oss/\nhttps://novelaklinikken.no/kundeerfaring/\nhttps://novelaklinikken.no/kontakt/\nhttps://www.eadministration.dk/kunde/kundelogin.asp?klient=778&_ga=2.59380398.2051854638.1694604956-1797750345.1692602881&_gl=1*jz4c52*_ga*MTc5Nzc1MDM0NS4xNjkyNjAyODgx*_ga_CL4XN7RH1N*MTY5NDYwNzExMi4yNC4xLjE2OTQ2MDcxNTIuMC4wLjA.\nhttps://novelaklinikken.no/personvern/\nhttps://booking.tannfeen.no/\nhttps://novelaklinikken.no/behandlinger/\nhttps://novelaklinikken.no/priser/\nhttps://enklerevalg.no/\nhttps://www.eadministration.dk/kunde/kundelogin.asp?klient=778&_ga=2.132517774.1628070520.1695041992-1797750345.1692602881&_gl=1*qufdjq*_ga*MTc5Nzc1MDM0NS4xNjkyNjAyODgx*_ga_CL4XN7RH1N*MTY5NTA3MjQ5OC4zMS4wLjE2OTUwNzI0OTguMC4wLjA.\nhttps://novelaklinikken.no/personvernerklaering/\nhttps://schema.org/\nhttps://novelaklinikken.nohttps//admin.novelaklinikken.no/klinikk/",
+      "organisation_number": "912973808",
+      "run_id": "architecture-fresh-1000-1792176223066",
+      "content_sha256": "c0bb456081ab5cfed6a564fcf438a8b5b03fa3129d96c889fb4d2134bce39d0f",
+      "retrieved_at": "2026-10-16T19:50:13.996Z",
+      "id": "837bc7c08115db1e6d5e042ef401bfabbadb11a53c50f07ce0cc4ff4461f34dc",
+      "extraction_method": "public-html-text-and-links/v3"
+    }
+  },
+  {
+    "org": "817655742",
+    "identity": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/enheter/817655742"
+        }
+      },
+      "aktivitet": [
+        "Plastisk kirurgiske operasjoner, behandling og salg av medisinske",
+        "hudprodukter og injeksjoner og alt som står i forbindelse med dette",
+        "samt informasjon om plastikkoperasjoner over internett."
+      ],
+      "antallAnsatte": 10,
+      "epostadresse": "fixture-contact-65@cosmoclinic.no",
+      "erIKonsern": false,
+      "forretningsadresse": {
+        "adresse": [
+          "Sandakerveien 114B"
+        ],
+        "kommune": "OSLO",
+        "kommunenummer": "0301",
+        "land": "Norge",
+        "landkode": "NO",
+        "postnummer": "0484",
+        "poststed": "OSLO"
+      },
+      "harRegistrertAntallAnsatte": true,
+      "historiskeNavn": [],
+      "hjemmeside": "www.cosmoclinic.no",
+      "institusjonellSektorkode": {
+        "beskrivelse": "Private aksjeselskaper mv.",
+        "kode": "2100"
+      },
+      "kapital": {
+        "antallAksjer": 900,
+        "belop": 900000,
+        "innfortDato": "2016-09-12",
+        "type": "Aksjekapital",
+        "valuta": "NOK"
+      },
+      "konkurs": false,
+      "maalform": "Bokmål",
+      "naeringskode1": {
+        "beskrivelse": "Spesialiserte legetjenester, unntatt psykiatriske legetjenester",
+        "kode": "86.221"
+      },
+      "navn": "COSMO CLINIC AS",
+      "organisasjonsform": {
+        "_links": {
+          "self": {
+            "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+          }
+        },
+        "beskrivelse": "Aksjeselskap",
+        "kode": "AS"
+      },
+      "organisasjonsnummer": "817655742",
+      "paategninger": [],
+      "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-10-13",
+      "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-10-10",
+      "registreringsdatoEnhetsregisteret": "2016-09-12",
+      "registreringsdatoForetaksregisteret": "2016-09-12",
+      "registreringsdatoMerverdiavgiftsregisteret": "2017-11-01",
+      "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2018-01-29",
+      "registrertIForetaksregisteret": true,
+      "registrertIFrivillighetsregisteret": false,
+      "registrertIMvaregisteret": true,
+      "registrertIPartiregisteret": false,
+      "registrertIStiftelsesregisteret": false,
+      "respons_klasse": "Enhet",
+      "sisteInnsendteAarsregnskap": "2025",
+      "stiftelsesdato": "2016-08-18",
+      "telefon": "00000021",
+      "underAvvikling": false,
+      "underTvangsavviklingEllerTvangsopplosning": false,
+      "vedtektsdato": "2022-10-26",
+      "vedtektsfestetFormaal": [
+        "Plastisk kirurgiske operasjoner, behandling og salg av medisinske",
+        "hudprodukter og injeksjoner og alt som står i forbindelse med dette",
+        "samt informasjon om plastikkoperasjoner over internett."
+      ]
+    },
+    "source": {
+      "source_url": "https://cosmoclinic.no/om-oss/om-oss-clinic",
+      "source_class": "external",
+      "text": "Om Cosmo Clinic, ledende på plastisk kirurgi - Cosmo Clinic\nLukk [X]\nHjem\nPlastisk kirurgi Ansiktsløft (facelift) Ansiktsløft (facelift)\nErfaringer etter ansiktsløft (facelift)\nPris ansiktsløft / ansiktskirurgi\nRecovery etter facelift\nAnsiktsløfting FAQ\nHalsløft Halsløft\nErfaring etter halsløft\nØyelokkoperasjon: Tunge øyelokk Øyelokkoperasjon: Tunge øyelokk\nErfaringer etter øyelokksoperasjon\nSpørsmål og svar om øyelokkoperasjon\nPoser under øynene (nedre øyelokksoperasjon) Øyelokksoperasjon: Poser under øynene\nErfaringer etter nedre øyelokksplastikk\nPanneløft (brynsløft) Panneløft\nErfaring etter panneløft / øyebrynsløft\nBrystforstørrelse / brystforstørring Brystforstørrelse med silikon\nErfaringer etter brystforstørring\nBrystimplantat til brystforstørrelse\nMyke silikonpupper\nSpørsmål og svar om brystforstørring\nErfaringer Motiva silikonproteser\nMotiva Implants silikonproteser\nMotiva Joy / Ergonomix2\nMotiva Preservé\nFjerne eller skifte brystprotese\nTubebryst (tuberøse bryst)\nBrystløft Brystløft\nErfaringer etter brystløft\nSvar på spørsmål om brystløft\nBrystforstørring med eget fett Brystforstørring med eget fett\nBrystforstørrelse via armhulen\nBrystreduksjon Brystreduksjon\nErfaringer etter brystreduksjon\nAsymmetriske bryster\nNeseplastikk - neseoperasjon\nFettsuging Fettsuging (liposkulptur)\nErfaringer etter fettsuging\nFettsuging av magen\nFettsuging av haken\nFettsuging av lårene\nFettsuging av hoftene\nBukplastikk (mageplastikk) Bukplastikk - mageplastikk\nErfaringer etter bukplastikk\nSlik blir arrene ved mageplastikk\nDelte magemuskler (rafing)\nMageplastikk - spørsmål og svar\nGynekomasti: Brystreduksjon hos menn Gynekomasti\nErfaring etter gynekomasti\nLaserbehandling i ansiktet Laserbehandling\nErfaringer etter laserbehandling\nSpørsmål og svar om laserbehandling\nBBL (Brazilian butt lift) Rumpeforstørrelse (BBL)\nErfaring etter BBL\nPostbariatrisk kirurgi\nRekonstruktiv plastikkirurgi\nPlastikkirurgi Brystoperasjon (brystkirurgi)\nArr og plastisk kirurgi\nPlastisk kirurgi i utlandet\nPlastikkirurgi\nNaturlige resultater\nKombinasjon av flere inngrep\nPlastisk kirurgi - en oversikt\nPlastisk kirurgi ved hudoverskudd\nHud Pasienthistorier Hudbehandlinger\nDermapen\nProfhilo\nFiller (hyaluronsyre)\nRestylane\nMesoterapi\nPeeling PRX-T33 Peeling\nKjemisk peeling\nRynkebehandling\nSvettebehandling\nTanngnissing\nSunekos 200 – oppstramming av huden rundt øynene\nPRX-T33\nLeppeforstørrelse\nZO Skin Health\nNOON Aesthetics\nSkinCeuticals\nIPL\nCosmo Clinics rynkeguide - Fjerning av rynker i ansikt Rynker i pannen\nSmilerynker\nRynker mellom øyenbrynene\nRynker på overleppen\nRynkeguide - Fjerning av rynker i ansiktet\nHudbehandling\nKarkirurgi Åreknuter\nPris\nOm oss Leger og sykepleiere\nPasienthistorier\nOm Cosmo Clinic\nNarkose (anestesi)\nTrygg kirurgi\nÅpningstider\nASPS-medlem\nSlik finner du oss\nOvernatting\nLedige stillinger\nCosmo Clinic i media\nPersonvernerklæring\nPlastic surgery Information in English Facelift\nNose surgery - Rhinoplasty\nBreast augmentation\nBreast Lift (Mastopexy)\nBBL (Brazilian butt lift)\nPlastic surgery\nCookies\nKontakt oss\nBlogg\nPLASTISK KIRURGI I SÆRKLASSE\nOm Cosmo Clinic\nCosmo Clinic er Norges største enkeltstående klinikk. Alle våre medarbeidere er håndplukket blant landets beste på sine fagområder.\nPlastikkirurgene er oppdatert på alle metoder og vil i samråd med deg finne ut hvilken løsning som passer best for akkurat deg. Det som skiller Cosmo Clinic fra andre norske klinikker, er at plastikkirurgene har høyspesialisert seg på hvert sitt område. Det gir våre plastikkirurger et enestående fortrinn og en ekspertise som kommer deg til gode. Dr Bjærke utfører for eksempel kun ansiktsløft (facelift) og annen ansiktskirurgi, noe som er unikt i Norge. Folk kommer fra hele Skandinavia for å bli operert av dr. Bjærke. Dr Berg har spesialisert seg på brystoperasjoner og figurformende inngrep og dr Solli-Nilsen er en ledende kapasitet på postbariatrisk kirurgi.\nVårt mål er at du skal kunne gjennomføre en behandling i trygge omgivelser. Din sikkerhet er i fokus hos oss. Du skal føle deg trygg på at plastikkirurgen som opererer deg har mange års erfaring med akkurat det inngrepet du ønsker og at du får et resultat som ser naturlig ut. På Cosmo Clinic er alltid anestesilege og anestesisykepleier til stede under alle operasjoner.\nVår filosofi er at et godt resultat henger sammen med dyktige plastikkirurger og dedikerte medarbeidere.\nSLIK FINNER DU OSS...\nMandag 8-16\nTirsdag 8-16\nOnsdag 8-16\nTorsdag 8-16\nFredag 9-15\nParkering\nDu kan parkere (mot betaling) rett ved bygget vi holder til i, i gaten utenfor BI og i nærheten, og dessuten kan du parkere i parkeringshuset i Nydalen allé.\nKontakt oss\nDu kan ringe oss på telefon 00000021 eller 91 90 53 13 eller sende oss en epost: Denne e-postadressen er beskyttet mot programmer som samler e-postadresser. Du må aktivere javaskript for å kunne se den. .\nHer finner du Cosmo Clinic\nNydalen : Sandakerveien 114 B, 0484 Oslo ( se kart )\nOvernatting\nCosmo Clinic tilbyr overnatting mot et tillegg i prisen.\nI nærheten av vår klinikk ligger følgende hoteller:\nThon Hotel Storo\nRadisson Blu Hotel Nydalen\nSamarbeid\nVi har et nært samarbeid med følgende klinikker, hvor vi regelmessig tilbyr konsultasjoner:\nBeauty Medical Care i Tønsberg\nMedisinsk Hudklinikk i Hamar\nClinic Quist i Kristiansand\n-->\r\nHva sier pasientene om oss?\n«Endelig har jeg tatt den operasjonen jeg ønsket etter mange års vurdering! Jeg fikk utført full bukplastikk med rafing , fettsuging av mage og hofter samt brystforstørring med eget fett . Med god informasjon i forkant av inngrepet, og på selve operasjonsdagen følte jeg meg godt ivaretatt. Jeg fikk mobilnummer direkte til legen og kunne ringe ham når som helst dersom det var noe jeg lurte på. Resultatet ble mye bedre enn jeg forventet. Jeg er strålende fornøyd.»\n«Hadde en fantastisk opplevelse fra start til slutt. Fra en god videokonsultasjon, til mottak på klinikken, selve operasjonen og deretter oppfølging. Realistiske svar og forventninger. Moderne og rent på klinikken. Alltid tilgjengelig ved spørsmål. Anbefales på det sterkeste!»\n«Følte meg godt ivaretatt. God informasjon og veiledning vedrørende tiden etter operasjonen. Jeg er meget godt fornøyd. Jeg gir toppkarakter!!!»\n«Tomm Bjærke kunne ikke gjort opplevelsen min bedre. Jeg følte meg hørt, sett og forstått hele veien, samtidig som jeg fikk all informasjonen som trengtes. Jeg følte meg utrolig trygg før, under og etter operasjon. Han tar seg god tid og får deg til å føle deg som den eneste pasienten hans. Han er tilgjengelig etter operasjon til alle døgnets tider for alle spørsmål. Bjærke er en fantastisk kirurg, og jeg er glad jeg reiste for å dra til han fremfor å gjøre det lettvint. Jeg anbefaler han og Cosmo Clinic på det varmeste. Både han og alle de ansatte var fantastiske fra start til slutt.»\nAlle pasienthistoriene på hjemmesiden til Cosmo Clinic er skrevet av pasientene selv. Vi gir aldri rabatter mot at pasienten skriver positivt om oss (noe andre klinikker gjør).\nDin nettleser støtter ikke videoen. \r\nLeger og sykepleiere\nPasienthistorier\nOm Cosmo Clinic\nNarkose (anestesi)\nTrygg kirurgi\nÅpningstider\nASPS-medlem\nSlik finner du oss\nOvernatting\nLedige stillinger\nCosmo Clinic i media\nPersonvernerklæring\nPlastic surgery Information in English\nCookies\nDette nettstedet er beskyttet av reCAPTCHA, og Googles personvernregler og vilkår gjelder.\nPrivacy settings\nCosmo Clinic\nPlastikkirurgisk kompetansesenter\nMedisinsk ansvarlig lege: Thomas Berg\nAdresse\nBesøksadresse Nydalen (Sandaker):\nSandakerveien 114 B\n0484 Oslo ( se kart )\nKontakt Cosmo Clinic\nTlf: 00000021 eller 91 90 53 13\nEpost: fixture-contact-65@cosmoclinic.no\nOrg.nr.: 817 655 742.\nOslo - Norge\nSosiale medier\nDette nettstedet bruker informasjonskapsler (cookies) for analyser. Ved å fortsette å bruke nettstedet godtar du dette. Du kan selv skru av lagring av cookies i nettleseren du bruker.\nPersonvernerklæring - Cookies\nInnhold © Cosmo Clinic.\nBestill konsultasjon\n\n[Links extracted from this page]\nhttps://cosmoclinic.no/favicon.ico\nhttps://cosmoclinic.no/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.4.1\nhttps://cosmoclinic.no/plugins/content/jw_allvideos/jw_allvideos/tmpl/Responsive/css/template.css?v=7.0\nhttps://cosmoclinic.no/media/plg_system_jcepro/site/css/content.min.css?86aa0286b6232c4a5b58f892ce080277\nhttps://cosmoclinic.no/templates/webnorge2023/css/webnorge.css\nhttps://cosmoclinic.no/templates/webnorge2023/css/menyer.css\nhttps://cosmoclinic.no/templates/webnorge2023/css/override.css\nhttps://cosmoclinic.no/\nhttps://cosmoclinic.no/om-oss/om-oss-clinic\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/ansiktsloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/ansiktsloft/erfaring-ansiktsloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/ansiktsloft/pris-ansiktsloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/ansiktsloft/recovery-etter-facelift\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/ansiktsloft/facelift-faq\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/halsloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/halsloft/erfaring-halsloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/oyelokkoperasjon-tunge-oyelokk\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/oyelokkoperasjon-tunge-oyelokk/erfaring-oyelokkoperasjon\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/oyelokkoperasjon-tunge-oyelokk/faq\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/poser-under-oynene\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/poser-under-oynene/erfaring-nedre-oyelokksplastikk\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/panneloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/panneloft/erfaring-panneloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/erfaring-brystforstorring\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/brystimplantat-til-brystforstorrelse\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/myke-silikonpupper\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/faq-brystforstorring\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/erfaring-motiva-silikonproteser\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/motiva-silikonproteser\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/motiva-joy-ergonomix2\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/motiva-preserve\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/fjerne-silikon\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse/tubebryst-tuberose-bryst\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystloft/erfaring-brystloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystloft/faq-brystloft\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse-eget-fett\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystforstorrelse-via-armhulen\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystreduksjon\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystreduksjon/erfaring-brystreduksjon\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/brystreduksjon/asymmetriske-bryster\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/neseoperasjon-neseplastikk\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/fettsuging\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/fettsuging/erfaring-fettsuging\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/fettsuging/fettsuging-av-magen\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/fettsuging/fettsuging-av-haken\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/fettsuging/fettsuging-av-larene\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/fettsuging/fettsuging-av-hoftene\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bukplastikk-mageplastikk\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bukplastikk-mageplastikk/erfaring-mageplastikk\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bukplastikk-mageplastikk/slik-blir-arrene\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bukplastikk-mageplastikk/delte-magemuskler-rafing\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bukplastikk-mageplastikk/mageplastikk-faq\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/gynekomasti\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/gynekomasti/erfaring-gynekomasti\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/laserbehandling\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/laserbehandling/erfaring-laserbehandling\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/laserbehandling/laserbehandling-faq\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bbl-rumpeforstorrelse\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/bbl-rumpeforstorrelse/erfaring-bbl-rumpeforstorrelse\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/postbariatrisk-kirurgi\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/rekonstruktiv-plastikkirurgi\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastikkirurgi\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastikkirurgi/brystoperasjon-brystkirurgi\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastikkirurgi/arr-plastisk-kirurgi\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastikkirurgi/plastisk-kirurgi-i-utlandet\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastikkirurgi/naturlige-resultater\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/kombinasjon-av-flere-inngrep\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastisk-kirurgi\nhttps://cosmoclinic.no/plastisk-kirurgi-oslo/plastisk-kirurgi-ved-hudoverskudd\nhttps://cosmoclinic.no/hud-oslo/pasienthistorier-hudbehandlinger\nhttps://cosmoclinic.no/hud-oslo/dermapen\nhttps://cosmoclinic.no/hud-oslo/profhilo\nhttps://cosmoclinic.no/hud-oslo/fillere\nhttps://cosmoclinic.no/hud-oslo/restylane\nhttps://cosmoclinic.no/hud-oslo/mesoterapi\nhttps://cosmoclinic.no/hud-oslo/peeling\nhttps://cosmoclinic.no/hud-oslo/peeling/prx-t33-peeling\nhttps://cosmoclinic.no/hud-oslo/rynkebehandling\nhttps://cosmoclinic.no/hud-oslo/svettebehandling\nhttps://cosmoclinic.no/hud-oslo/tanngnissing\nhttps://cosmoclinic.no/hud-oslo/sunekos-200-oppstramming-hud-rundt-oynene\nhttps://cosmoclinic.no/hud-oslo/prx-t33\nhttps://cosmoclinic.no/hud-oslo/leppeforstorrelse\nhttps://cosmoclinic.no/hud-oslo/zo-skin-health\nhttps://cosmoclinic.no/hud-oslo/noon-aesthetics\nhttps://cosmoclinic.no/hud-oslo/skinceuticals\nhttps://cosmoclinic.no/hud-oslo/ipl\nhttps://cosmoclinic.no/hud-oslo/rynkeguide\nhttps://cosmoclinic.no/hud-oslo/rynkeguide/rynker-i-pannen\nhttps://cosmoclinic.no/hud-oslo/rynkeguide/smilerynker\nhttps://cosmoclinic.no/hud-oslo/rynkeguide/rynkeguide-sinnarynke-rynker-mellom-oyenbrynene\nhttps://cosmoclinic.no/hud-oslo/rynkeguide/rynkeguide-rynker-overleppen\nhttps://cosmoclinic.no/hud-oslo/rynkeguide/rynkeguide\nhttps://cosmoclinic.no/hud-oslo/hudbehandling\nhttps://cosmoclinic.no/karkirurgi/areknuter\nhttps://cosmoclinic.no/priser\nhttps://cosmoclinic.no/om-oss/leger-sykepleiere\nhttps://cosmoclinic.no/om-oss/pasienthistorier-erfaring\nhttps://cosmoclinic.no/om-oss/narkose-anestesi\nhttps://cosmoclinic.no/om-oss/trygg-kirurgi\nhttps://cosmoclinic.no/om-oss/apningstider\nhttps://cosmoclinic.no/om-oss/asps-medlem\nhttps://cosmoclinic.no/om-oss/slik-finner-du-oss\nhttps://cosmoclinic.no/om-oss/overnatting\nhttps://cosmoclinic.no/om-oss/ledige-stillinger\nhttps://cosmoclinic.no/om-oss/cosmo-i-media\nhttps://cosmoclinic.no/om-oss/personvernerklaering\nhttps://cosmoclinic.no/om-oss/plastic-surgery\nhttps://cosmoclinic.no/om-oss/plastic-surgery/facelift\nhttps://cosmoclinic.no/om-oss/plastic-surgery/nose-surgery-rhinoplasty\nhttps://cosmoclinic.no/om-oss/plastic-surgery/breast-augmentation\nhttps://cosmoclinic.no/om-oss/plastic-surgery/breast-lift-mastopexy\nhttps://cosmoclinic.no/om-oss/plastic-surgery/bbl-brazilian-butt-lift\nhttps://cosmoclinic.no/om-oss/cookies\nhttps://cosmoclinic.no/kontakt-oss\nhttps://cosmoclinic.no/blogg\nhttps://goo.gl/maps/ffeen1MtYZS2\nhttps://www.thonhotels.com/our-hotels/norway/oslo/thon-hotel-storo/\nhttps://www.radissonhotels.com/en-us/hotels/radisson-blu-oslo-nydalen\nhttps://www.beauty-medcare.no/\nhttps://medisinsk-hudklinikk.no/\nhttps://clinicquist.no/\nhttps://policies.google.com/privacy\nhttps://policies.google.com/terms\nhttps://www.facebook.com/cosmoclinicoslo/\nhttps://www.instagram.com/cosmoclinicoslo/\nhttps://cosmoclinic.no/kontakt-oss?mob",
+      "organisation_number": "817655742",
+      "run_id": "architecture-fresh-1000-1792176223066",
+      "content_sha256": "b4e5f0221f207c409815deddf88970e447960e3fec9f6ec023b967d3700e8580",
+      "retrieved_at": "2026-10-16T19:35:48.046Z",
+      "id": "5c91fc8cd6f26338cffa661ebf2798d8014da74cfd9e47ff066324b70f643ef9",
+      "extraction_method": "public-html-text-and-links/v3"
+    }
+  },
+  {
+    "org": "922941653",
+    "identity": {
+      "_links": {
+        "self": {
+          "href": "https://data.brreg.no/enhetsregisteret/api/enheter/922941653"
+        }
+      },
+      "aktivitet": [
+        "Prosjektering av elektriske anlegg, teknisk bygge- og prosjektledelse."
+      ],
+      "antallAnsatte": 22,
+      "erIKonsern": false,
+      "forretningsadresse": {
+        "adresse": [
+          "Strandveien 2B"
+        ],
+        "kommune": "DRAMMEN",
+        "kommunenummer": "3301",
+        "land": "Norge",
+        "landkode": "NO",
+        "postnummer": "3050",
+        "poststed": "MJØNDALEN"
+      },
+      "harRegistrertAntallAnsatte": true,
+      "historiskeNavn": [],
+      "institusjonellSektorkode": {
+        "beskrivelse": "Private aksjeselskaper mv.",
+        "kode": "2100"
+      },
+      "kapital": {
+        "antallAksjer": 7500,
+        "belop": 75000,
+        "innfortDato": "2024-11-11",
+        "type": "Aksjekapital",
+        "valuta": "NOK"
+      },
+      "konkurs": false,
+      "maalform": "Bokmål",
+      "naeringskode1": {
+        "beskrivelse": "Byggeteknisk konsulentvirksomhet",
+        "kode": "71.121"
+      },
+      "navn": "FREMST AS",
+      "organisasjonsform": {
+        "_links": {
+          "self": {
+            "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+          }
+        },
+        "beskrivelse": "Aksjeselskap",
+        "kode": "AS"
+      },
+      "organisasjonsnummer": "922941653",
+      "paategninger": [],
+      "registreringsdatoAntallAnsatteEnhetsregisteret": "2026-10-13",
+      "registreringsdatoAntallAnsatteNAVAaregisteret": "2026-10-10",
+      "registreringsdatoEnhetsregisteret": "2019-06-21",
+      "registreringsdatoForetaksregisteret": "2019-06-21",
+      "registreringsdatoMerverdiavgiftsregisteret": "2019-09-01",
+      "registreringsdatoMerverdiavgiftsregisteretEnhetsregisteret": "2019-10-21",
+      "registrertIForetaksregisteret": true,
+      "registrertIFrivillighetsregisteret": false,
+      "registrertIMvaregisteret": true,
+      "registrertIPartiregisteret": false,
+      "registrertIStiftelsesregisteret": false,
+      "respons_klasse": "Enhet",
+      "sisteInnsendteAarsregnskap": "2025",
+      "stiftelsesdato": "2019-05-29",
+      "underAvvikling": false,
+      "underTvangsavviklingEllerTvangsopplosning": false,
+      "vedtektsdato": "2024-08-20",
+      "vedtektsfestetFormaal": [
+        "Prosjektering av elektriske anlegg, teknisk bygge- og prosjektledelse",
+        "og annet som naturlig faller sammen med dette, herunder å delta i",
+        "andre selskaper med lignende virksomhet, kjøp og salg av aksjer, eller",
+        "på annen måte gjøre seg interessert i andre foretagender."
+      ]
+    },
+    "source": {
+      "source_url": "https://fremst.no/karriere/",
+      "source_class": "company_owned",
+      "text": "Karriere - Fremst\nTjenester\nOmråder\nBygg\nSolenergi og energilagring\nInfrastruktur for lading\nVeilys\nReferanser\nOm oss\nKarriere\nKontakt oss\nMenu\nMenu\nJobb i Fremst\nVi har mye å gjøre og store planer for fremtiden – derfor leter vi etter flere engasjerte og lærevillige folk som vil bli med på reisen vår!\nHos oss får du muligheten til å jobbe i et selskap med solid oppdragsmengde og klare vekstambisjoner. Vi tror på å skape et miljø hvor alle kan utvikle seg og vokse sammen med oss, både faglig og personlig.\nEr du sulten på nye utfordringer, opptatt av kvalitet, og liker tanken på å være en del av et team som gjør hverandre bedre? Da vil vi gjerne høre fra deg!\nElektroingeniør / prosjektleder\nFremst søker dyktige elektroingeniører til stilling som rådgiver og prosjektleder.\nMjøndalen, Drammen\nSøknadsfrist: Løpende\nHvordan er det å jobbe i Fremst?\nÅ jobbe hos Fremst betyr å være en del av et team som setter folk først. Vi er ærlige og ujålete – her er det rom for å være seg selv. Med all den erfaringen vi har til sammen skaper vi trygghet og et solid fundament som gjør det enklere å finne gode løsninger sammen.\nHos oss handler det om å være nysgjerrige og fremoverlente, alltid på jakt etter bedre måter å gjøre ting på. Vi jobber tett sammen og tar vare på hverandre.\nHos Fremst finner du en arbeidsplass hvor det er godt å være, spennende oppgaver og trivelige kollegaer.\nLes mer om oss\nSend oss gjerne en åpen søknad\nHar vi ikke utlyst en stilling som passer for deg akkurat nå? Send oss gjerne en åpen søknad – vi vil gjerne høre hvem du er, hva du brenner for, og hvordan du kan bidra hos oss. Kanskje er det nettopp deg vi trenger!\nSend en åpen søknad\nFremst AS\nStrandveien 2B, 3050 Mjøndalen\nfixture-contact-66@fremst.no\n469 57 158\nOrg. nr.: 922 941 653\nSider\nTjenester\nReferanser\nOm oss\nKarriere\nKontakt oss\nFølg oss\nInstagram\nFacebook\nLinkedIn\nPersonvernerklæring\nFremst AS 2026\nScroll to top\nVi benytter oss av informasjonskapsler (cookies) for å forbedre din brukeropplevelse på siden. Ved å fortsette å bruke siden, godtar du til vår bruk av informasjonskapsler. Godta Personvern og bruk av informasjonskapsler\n\n[Structured data from this page]\n{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://fremst.no/karriere/\",\"url\":\"https://fremst.no/karriere/\",\"name\":\"Karriere - Fremst\",\"isPartOf\":{\"@id\":\"https://fremst.no/#website\"},\"datePublished\":\"2024-10-29T11:43:42+00:00\",\"dateModified\":\"2025-02-26T10:31:07+00:00\",\"breadcrumb\":{\"@id\":\"https://fremst.no/karriere/#breadcrumb\"},\"inLanguage\":\"nb-NO\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://fremst.no/karriere/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://fremst.no/karriere/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Hjem\",\"item\":\"https://fremst.no/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Karriere\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://fremst.no/#website\",\"url\":\"https://fremst.no/\",\"name\":\"Fremst\",\"description\":\"\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://fremst.no/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"nb-NO\"}]}\n\n[Links extracted from this page]\nhttps://fremst.no/karriere/\nhttps://fremst.no/feed/\nhttps://fremst.no/comments/feed/\nhttps://fremst.no/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffremst.no%2Fkarriere%2F\nhttps://fremst.no/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffremst.no%2Fkarriere%2F&format=xml\nhttps://fremst.no/wp-content/themes/enfold/css/grid.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/css/base.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/css/layout.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons/buttons.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttonrow/buttonrow.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/comments/comments.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/grid_row/grid_row.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/heading/heading.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/social_share/social_share.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=7.0\nhttps://fremst.no/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.5\nhttps://fremst.no/wp-content/plugins/cookie-notice/css/front.min.css?ver=2.5.5\nhttps://fremst.no/wp-content/themes/enfold/css/shortcodes.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/css/avia-snippet-fold-unfold.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/js/aviapopup/magnific-popup.min.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=7.0\nhttps://fremst.no/wp-content/themes/enfold/css/avia-snippet-widget.css?ver=7.0\nhttps://fremst.no/wp-content/uploads/dynamic_avia/nyg.css?ver=67d0b630df9d6\nhttps://fremst.no/wp-content/themes/enfold/css/custom.css?ver=7.0\nhttps://fremst.no/wp-content/themes/nyg-enfold-child/style.css?ver=7.0\nhttps://fremst.no/wp-content/uploads/dynamic_avia/avia_posts_css/post-120.css?ver=ver-1741733339\nhttps://fremst.no/wp-content/themes/nyg-enfold-child/css/base.min.css?ver=7.1.3\nhttps://fremst.no/wp-content/themes/nyg-enfold-child/css/owl.carousel.css?ver=7.1.3\nhttps://fremst.no/wp-json/\nhttps://fremst.no/wp-json/wp/v2/pages/120\nhttps://fremst.no/xmlrpc.php?rsd\nhttps://fremst.no/?p=120\nhttps://fremst.no/wp-content/uploads/2025/03/fremst-favicon.png\nhttps://gmpg.org/xfn/11\nhttps://fremst.no/xmlrpc.php\nhttps://fremst.no/\nhttps://fremst.no/tjenester/\nhttps://fremst.no/bygg/\nhttps://fremst.no/solenergi-og-energilagring/\nhttps://fremst.no/infrastruktur-for-lading/\nhttps://fremst.no/veilys/\nhttps://fremst.no/referanser/\nhttps://fremst.no/om-oss/\nhttps://fremst.no/kontakt-oss/\nhttps://fremst.no/ledig-stilling/elektroingenior-prosjektleder/\nhttps://www.google.no/maps/dir//Strandveien+2b,+3050+Mj%C3%B8ndalen/\nhttps://www.instagram.com/fremstas/\nhttps://www.facebook.com/fremstas\nhttps://www.linkedin.com/company/fremst/\nhttps://fremst.no/personvern/\nhttps://schema.org/\nhttps://fremst.no/?s={search_term_string}",
+      "organisation_number": "922941653",
+      "run_id": "architecture-fresh-1000-1792176223066",
+      "content_sha256": "0ecf506c8f97d883ac1e73641eb7348688a83937dce565068c727cd075f68d89",
+      "retrieved_at": "2026-10-16T19:15:14.221Z",
+      "id": "70887cadb9e0ced91b12e27b5de2d83fee1620f5bcc75ba0d0d87edfc902466c",
+      "extraction_method": "public-html-text-and-links/v3"
+    }
+  }
+]

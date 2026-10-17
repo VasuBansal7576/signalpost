@@ -1,0 +1,12 @@
+{
+  "seed": 20260823,
+  "selection": "official random.Random(seed).sample(universe,100)",
+  "count": 100,
+  "universe_url": "https://www.builderr.ai/signalpost-company-universe-2025.jsonl.gz",
+  "universe_gzip_sha256": "1c89710e5b01f8617e86d09fbdff4a52f2f8dbbba297e74f7164b5984f5a0384",
+  "sample_sha256": "51a96f25f79532b9ba285304d540887e0f17410907909dbe6c85c0b41b8341d3",
+  "bulk_url": "https://data.brreg.no/enhetsregisteret/api/enheter/lastned/csv",
+  "bulk_sha256": "cfd5738e1c0bf808dae004fffd9dfe9a549467b0d5038c872f6df91b828d3041",
+  "collected_on": "2026-10-15",
+  "run_id": "benchmark-fallback-100-v6"
+}

@@ -1,0 +1,9 @@
+# Third-party dependency and fixture notices
+
+Signalpost source is MIT. Installed dependencies have their own licenses; the full runtime is not exclusively MIT. `DEPENDENCY_LICENSES.json` inventories all189 pinned non-root lockfile package locations and their declared licenses. Source archives do not contain installed dependency implementations; `npm ci` obtains the exact locked distributions.
+
+`eve@0.79.1` transitively requires `node-liblzma@2.2.0`, which declares LGPL-3.0. A verbatim copy of its installed LGPL text is supplied in `licenses/node-liblzma-LGPL-3.0.txt`. Its package metadata identifies its upstream repository; the pinned npm source URL is retained in the dependency inventory/lock. No modifications to node-liblzma are included in this project. This notice does not establish compliance for a redistributed compiled runtime or image: corresponding library source, relinking/replacement, transitive native-library licenses and actual redistribution obligations have not been independently verified. **Do not distribute a built runtime/image as license-cleared until that review is complete.**
+
+Retain dependency copyright/license notices in any redistributed dependency copies. MIT, Apache, ISC, BSD and dual-license expressions are separately listed in the inventory; no blanket MIT claim applies.
+
+Regression fixtures contain minimized/sanitized public-source development material and synthetic private contact fields. They are not official evaluation inputs or independent quality labels. Privacy sanitation does not itself establish publisher permission to redistribute every retained page excerpt. Source-rights review remains an explicit release limitation; synthetic minimal fixtures are preferred where the exact publisher passage is unnecessary. Historical private trace material and personal auth/runtime data are excluded from the release archive.

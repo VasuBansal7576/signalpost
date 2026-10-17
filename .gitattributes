@@ -1,0 +1,6 @@
+submission/history export-ignore
+verification/external-repair export-ignore
+benchmark/companies-100.jsonl export-ignore
+
+# Historical private retrospective stays local; release docs use current receipts.
+docs/EXECUTION_POSTMORTEM.md export-ignore
